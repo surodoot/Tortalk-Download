@@ -9,7 +9,7 @@ Pinned app dependencies are declared in source/518b5b7/frontend/embedded-tor/bui
 - Desugar JDK libraries 2.1.5 and Android/Gradle build dependencies retain their upstream licenses and are resolved separately.
 
 ## Remaining gates before a new APK release
-1. Resolve the previously observed Rust 1.99 metadata versus 1.98.1 native-build provenance mismatch for libsignal, and archive the exact source/submodules/build inputs needed for the distributed native bytes.
+1. The official libsignal v0.105.0 tag resolves to commit `4beb029d8a941f81e7d9c6d8af1ed25a677569a8`. Its [rust-toolchain](https://github.com/signalapp/libsignal/blob/4beb029d8a941f81e7d9c6d8af1ed25a677569a8/rust-toolchain) is `1.98.1`, and its [workspace Cargo.toml](https://github.com/signalapp/libsignal/blob/4beb029d8a941f81e7d9c6d8af1ed25a677569a8/Cargo.toml) declares minimum Rust `1.93.1`. The earlier Rust 1.99 warning is not supported by these verified source files and is corrected here. Exact native source/dependency availability and actual AAR provenance still require verification; this correction does not claim a reproduced native binary.
 2. Verify corresponding-source availability and license/notice closure for all included native/dependency components; do not treat a project homepage or a license link as proof that this is complete.
 3. Verify the new APK against this exact source and record its hash, signing certificate, build provenance and real Android runtime results.
 
