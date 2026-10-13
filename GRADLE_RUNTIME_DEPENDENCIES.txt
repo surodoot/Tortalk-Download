@@ -1,0 +1,79 @@
+Source revision: 518b5b73bad55478850315d7c5db690bfd456baa
+Unsigned build artifact report, with machine-local paths omitted.
+
+debugRuntimeClasspath - Runtime classpath of '/debug'.
++--- org.jetbrains.kotlin:kotlin-stdlib:2.2.10 -> 2.2.20
+|    \--- org.jetbrains:annotations:13.0 -> 23.0.0
++--- org.signal:libsignal-android:0.105.0
+|    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2
+|    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2
+|    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2
+|    |    |         +--- org.jetbrains:annotations:23.0.0
+|    |    |         +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2 (c)
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2 (c)
+|    |    |         |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2 (c)
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.0 -> 2.2.20 (*)
+|    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.0 -> 2.2.20 (*)
+|    +--- org.signal:libsignal-client:0.105.0
+|    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2 (*)
+|    |    +--- org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0
+|    |    |    \--- org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.9.0
+|    |    |         +--- org.jetbrains.kotlinx:kotlinx-serialization-bom:1.9.0
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0 (c)
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.9.0 (c)
+|    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0 (c)
+|    |    |         |    \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.9.0 (c)
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:2.2.0 -> 2.2.20 (*)
+|    |    |         \--- org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0
+|    |    |              \--- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.9.0
+|    |    |                   +--- org.jetbrains.kotlinx:kotlinx-serialization-bom:1.9.0 (*)
+|    |    |                   \--- org.jetbrains.kotlin:kotlin-stdlib:2.2.0 -> 2.2.20 (*)
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib:2.2.20 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:2.2.20 (*)
++--- info.guardianproject:tor-android:0.4.9.13.2
+|    +--- androidx.localbroadcastmanager:localbroadcastmanager:1.1.0
+|    |    \--- androidx.annotation:annotation:1.1.0
+|    +--- info.guardianproject:jtorctl:0.4.5.7
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:2.2.10 -> 2.2.20 (*)
++--- info.guardianproject:jtorctl:0.4.5.7
++--- io.netty:netty-handler-proxy:4.1.139.Final
+|    +--- io.netty:netty-common:4.1.139.Final
+|    +--- io.netty:netty-buffer:4.1.139.Final
+|    |    \--- io.netty:netty-common:4.1.139.Final
+|    +--- io.netty:netty-transport:4.1.139.Final
+|    |    +--- io.netty:netty-common:4.1.139.Final
+|    |    +--- io.netty:netty-buffer:4.1.139.Final (*)
+|    |    \--- io.netty:netty-resolver:4.1.139.Final
+|    |         \--- io.netty:netty-common:4.1.139.Final
+|    +--- io.netty:netty-codec:4.1.139.Final
+|    |    +--- io.netty:netty-common:4.1.139.Final
+|    |    +--- io.netty:netty-buffer:4.1.139.Final (*)
+|    |    \--- io.netty:netty-transport:4.1.139.Final (*)
+|    +--- io.netty:netty-codec-socks:4.1.139.Final
+|    |    +--- io.netty:netty-common:4.1.139.Final
+|    |    +--- io.netty:netty-buffer:4.1.139.Final (*)
+|    |    +--- io.netty:netty-transport:4.1.139.Final (*)
+|    |    \--- io.netty:netty-codec:4.1.139.Final (*)
+|    \--- io.netty:netty-codec-http:4.1.139.Final
+|         +--- io.netty:netty-common:4.1.139.Final
+|         +--- io.netty:netty-buffer:4.1.139.Final (*)
+|         +--- io.netty:netty-transport:4.1.139.Final (*)
+|         +--- io.netty:netty-codec:4.1.139.Final (*)
+|         \--- io.netty:netty-handler:4.1.139.Final
+|              +--- io.netty:netty-common:4.1.139.Final
+|              +--- io.netty:netty-resolver:4.1.139.Final (*)
+|              +--- io.netty:netty-buffer:4.1.139.Final (*)
+|              +--- io.netty:netty-transport:4.1.139.Final (*)
+|              +--- io.netty:netty-transport-native-unix-common:4.1.139.Final
+|              |    +--- io.netty:netty-common:4.1.139.Final
+|              |    +--- io.netty:netty-buffer:4.1.139.Final (*)
+|              |    \--- io.netty:netty-transport:4.1.139.Final (*)
+|              \--- io.netty:netty-codec:4.1.139.Final (*)
++--- io.netty:netty-codec-http:4.1.139.Final (*)
+\--- com.google.zxing:core:3.5.4
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+

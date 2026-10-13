@@ -4,84 +4,125 @@
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.139.Final/netty-buffer-4.1.139.Final-sources.jar",
     "bytes": 228319,
     "sha256": "08e8449d46218c5b523465b6fefc5dddf80314e34bf9789ef0da706ba77b816a",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.139.Final/netty-buffer-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-codec",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.139.Final/netty-codec-4.1.139.Final-sources.jar",
     "bytes": 300070,
     "sha256": "52d3e6aefa41ab7c24e3c57cb221b4d8e09d6af45e09483502636ae085cad6f6",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.139.Final/netty-codec-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-codec-http",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.139.Final/netty-codec-http-4.1.139.Final-sources.jar",
     "bytes": 530694,
     "sha256": "0f5a831ea08b9ed4b44546c92d0e47aba626ab52948e7d6d5088e961b3216b47",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.139.Final/netty-codec-http-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-codec-socks",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.139.Final/netty-codec-socks-4.1.139.Final-sources.jar",
     "bytes": 87687,
     "sha256": "3f72ab27d77aea9ef97710dc4c8e4b693c9efa244f527d291857e9b7b4f19fb3",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.139.Final/netty-codec-socks-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-common",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.139.Final/netty-common-4.1.139.Final-sources.jar",
     "bytes": 695362,
     "sha256": "dec370a8916b3452d8da4e13ce4af93504bf2b4fd706e0b2a18e2b6302f742c7",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.139.Final/netty-common-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-handler",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.139.Final/netty-handler-4.1.139.Final-sources.jar",
     "bytes": 394465,
     "sha256": "b20b5be210b4e7657ebf79d37123bafa3c5211f4c28549e777f7ad55d667046d",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.139.Final/netty-handler-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-handler-proxy",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.139.Final/netty-handler-proxy-4.1.139.Final-sources.jar",
     "bytes": 17385,
     "sha256": "b196204a37dd2fc144042f5bd2deab59f01157612ec0a048890623a6e6a1ebaf",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.139.Final/netty-handler-proxy-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-resolver",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.139.Final/netty-resolver-4.1.139.Final-sources.jar",
     "bytes": 27080,
     "sha256": "5101960dddfd3d5266d3270491cbe134c5c539dddb7469aab2e3b8a65f24a623",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.139.Final/netty-resolver-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-transport",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.139.Final/netty-transport-4.1.139.Final-sources.jar",
     "bytes": 344853,
     "sha256": "c2212c8754a0525f2eaa35c899711d143d165098890fa5c5fdce596c2641eb02",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.139.Final/netty-transport-4.1.139.Final.pom"
   },
   {
     "name": "netty-netty-transport-native-unix-common",
     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.139.Final/netty-transport-native-unix-common-4.1.139.Final-sources.jar",
     "bytes": 70758,
     "sha256": "05fe1d4a6a5c56fdae998b476abe774ae75f12d7c4c5026f4e741a1c09e9d185",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.139.Final/netty-transport-native-unix-common-4.1.139.Final.pom"
   },
   {
     "name": "zxing",
     "url": "https://repo.maven.apache.org/maven2/com/google/zxing/core/3.5.4/core-3.5.4-sources.jar",
     "bytes": 509348,
     "sha256": "a611e3b63b661aeb2a81b8b4f4bde2daace1e2976adbb37917a674a0019c8fac",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [],
+    "pom_url": "https://repo.maven.apache.org/maven2/com/google/zxing/core/3.5.4/core-3.5.4.pom"
   },
   {
     "name": "jtorctl",
     "url": "https://repo.maven.apache.org/maven2/info/guardianproject/jtorctl/0.4.5.7/jtorctl-0.4.5.7-sources.jar",
     "bytes": 26111,
     "sha256": "efb89629dcc1303885f03e010893ef5e3f8aaf934a77b3fc7fe765403597c188",
-    "verified": true
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "BSD-3-clause",
+        "url": "https://github.com/torproject/jtorctl/blob/master/LICENSE"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/info/guardianproject/jtorctl/0.4.5.7/jtorctl-0.4.5.7.pom"
   },
   {
     "name": "androidx-localbroadcastmanager",
@@ -89,7 +130,8 @@
     "bytes": 4258,
     "sha256": "d6c25fd6fe6dadf78986971c2158d1f15c56296eaaced9fc6eda5edbddabc746",
     "verified": true,
-    "selection_basis": "APK version metadata or pinned Tor POM; verify final resolution for release"
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "pom_error": "<urlopen error timed out>"
   },
   {
     "name": "coroutines-core",
@@ -97,7 +139,14 @@
     "bytes": 409492,
     "sha256": "cd86e9635cc7ac1b7d9854ed589e3041fb11cc67d2273e7d312278ba5628e2c8",
     "verified": true,
-    "selection_basis": "APK version metadata or pinned Tor POM; verify final resolution for release"
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.pom"
   },
   {
     "name": "coroutines-android",
@@ -105,15 +154,14 @@
     "bytes": 7783,
     "sha256": "e903e0f46b8c5337816f2492ac3f9f543cb21ebf6b80fd0dbfe8cf38d1f3ebcf",
     "verified": true,
-    "selection_basis": "APK version metadata or pinned Tor POM; verify final resolution for release"
-  },
-  {
-    "name": "kotlin-stdlib",
-    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.10/kotlin-stdlib-2.2.10-sources.jar",
-    "bytes": 698990,
-    "sha256": "2983f21e626325f256bc4443c7fe45a83912bba077be119142f68210c0548173",
-    "verified": true,
-    "selection_basis": "APK version metadata or pinned Tor POM; verify final resolution for release"
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.10.2/kotlinx-coroutines-android-1.10.2.pom"
   },
   {
     "name": "desugar_jdk_libs",
@@ -124,5 +172,80 @@
     "sha256": "cf0b48cb046b6517ed8e2a816c125116a907e13e48e341882ba6f4016a155d9f",
     "verified": true,
     "selection_basis": "official Prepare for jdk-11 based desugared library version 2.1.5 commit; binary-to-source build attestation not obtained"
+  },
+  {
+    "name": "kotlin-stdlib",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20-sources.jar",
+    "bytes": 712992,
+    "sha256": "27b9b8672ef33ae9c345b3e57d39b705560e7eca9ca2bf6485f323f612276c26",
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom"
+  },
+  {
+    "name": "serialization-core",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.9.0/kotlinx-serialization-core-jvm-1.9.0-sources.jar",
+    "bytes": 109541,
+    "sha256": "72ad8ca04529d29cb144f845858f650ad8f06ca3a43c637967ca88b733c06f19",
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.9.0/kotlinx-serialization-core-jvm-1.9.0.pom"
+  },
+  {
+    "name": "serialization-json",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.9.0/kotlinx-serialization-json-jvm-1.9.0-sources.jar",
+    "bytes": 90415,
+    "sha256": "6c231ddcd95b1023ffb72cfd98023a035f666e46b4479d68eff83cc30892396c",
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.9.0/kotlinx-serialization-json-jvm-1.9.0.pom"
+  },
+  {
+    "name": "jetbrains-annotations",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0-sources.jar",
+    "bytes": 37462,
+    "sha256": "ff2309b42f7584520497bb48bc609aca04c9886cf48708f14be83f00423ec144",
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom"
+  },
+  {
+    "name": "androidx-annotation",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.1.0/annotation-1.1.0-sources.jar",
+    "bytes": 52164,
+    "sha256": "92bcd2773b5624fd88b7ee21d5685145d7cafed59316c4ce83de33a7b2dd8c02",
+    "verified": true,
+    "selection_basis": "actual 518b5b7 unsigned build debugRuntimeClasspath report",
+    "licenses_declared_in_pom": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "pom_url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.1.0/annotation-1.1.0.pom"
   }
 ]
