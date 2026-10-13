@@ -1,0 +1,1266 @@
+{
+  "scope": "libsignal 0.105.0 whole-workspace Cargo.lock source superset, not an APK package inventory",
+  "verified_date": "2026-10-13",
+  "packages": [
+    {
+      "name": "multimap",
+      "version": "0.10.1",
+      "sha256": "1d87ecb2933e8aeadb3e3a02b828fed80a7528047e68b4f424523a0981a3a084",
+      "url": "https://static.crates.io/crates/multimap/multimap-0.10.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15232
+    },
+    {
+      "name": "neon",
+      "version": "1.1.1",
+      "sha256": "74c1d298c79e60a3f5a1e638ace1f9c1229d2a97bd3a9e40a63b67c8efa0f1e1",
+      "url": "https://static.crates.io/crates/neon/neon-1.1.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 110047
+    },
+    {
+      "name": "neon-macros",
+      "version": "1.1.1",
+      "sha256": "c39e43767817fc963f90f400600967a2b2403602c6440685d09a6bc4e02b70b1",
+      "url": "https://static.crates.io/crates/neon-macros/neon-macros-1.1.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 11503
+    },
+    {
+      "name": "nom",
+      "version": "7.1.3",
+      "sha256": "d273983c5a657a70a3e8f2a01329822f3b8c8172b73826411a55751e404a0a4a",
+      "url": "https://static.crates.io/crates/nom/nom-7.1.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 117570
+    },
+    {
+      "name": "nom-derive",
+      "version": "0.10.1",
+      "sha256": "1ff943d68b88d0b87a6e0d58615e8fa07f9fd5a1319fa0a72efc1f62275c79a7",
+      "url": "https://static.crates.io/crates/nom-derive/nom-derive-0.10.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21499
+    },
+    {
+      "name": "nom-derive-impl",
+      "version": "0.10.1",
+      "sha256": "cd0b9a93a84b0d3ec3e70e02d332dc33ac6dfac9cde63e17fcb77172dededa62",
+      "url": "https://static.crates.io/crates/nom-derive-impl/nom-derive-impl-0.10.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 18645
+    },
+    {
+      "name": "nonzero_ext",
+      "version": "0.3.0",
+      "sha256": "38bf9645c8b145698bb0b18a4637dcacbc421ea49bef2317e4fd8065a387cf21",
+      "url": "https://static.crates.io/crates/nonzero_ext/nonzero_ext-0.3.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15855
+    },
+    {
+      "name": "nu-ansi-term",
+      "version": "0.50.3",
+      "sha256": "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5",
+      "url": "https://static.crates.io/crates/nu-ansi-term/nu-ansi-term-0.50.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 29597
+    },
+    {
+      "name": "num-bigint",
+      "version": "0.4.8",
+      "sha256": "c89e69e7e0f03bea5ef08013795c25018e101932225a656383bd384495ecc367",
+      "url": "https://static.crates.io/crates/num-bigint/num-bigint-0.4.8.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 109961
+    },
+    {
+      "name": "num-conv",
+      "version": "0.2.2",
+      "sha256": "521739c6d2bac4aa25192232afe6841231376b2b26d4d9fae5ecf8ca5772e441",
+      "url": "https://static.crates.io/crates/num-conv/num-conv-0.2.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 7441
+    },
+    {
+      "name": "num-derive",
+      "version": "0.5.1",
+      "sha256": "e4e98dc3b890f6c23a0f9d3d491a2823d0dea0fa656302a13dd225fa924112a8",
+      "url": "https://static.crates.io/crates/num-derive/num-derive-0.5.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15779
+    },
+    {
+      "name": "num-integer",
+      "version": "0.1.46",
+      "sha256": "7969661fd2958a5cb096e56c8e1ad0444ac2bbcd0061bd28660485a44879858f",
+      "url": "https://static.crates.io/crates/num-integer/num-integer-0.1.46.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22331
+    },
+    {
+      "name": "num-traits",
+      "version": "0.2.19",
+      "sha256": "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841",
+      "url": "https://static.crates.io/crates/num-traits/num-traits-0.2.19.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 51631
+    },
+    {
+      "name": "num_enum",
+      "version": "0.7.6",
+      "sha256": "5d0bca838442ec211fa11de3a8b0e0e8f3a4522575b5c4c06ed722e005036f26",
+      "url": "https://static.crates.io/crates/num_enum/num_enum-0.7.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21741
+    },
+    {
+      "name": "num_enum_derive",
+      "version": "0.7.6",
+      "sha256": "680998035259dcfcafe653688bf2aa6d3e2dc05e98be6ab46afb089dc84f1df8",
+      "url": "https://static.crates.io/crates/num_enum_derive/num_enum_derive-0.7.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 18789
+    },
+    {
+      "name": "object",
+      "version": "0.37.3",
+      "sha256": "ff76201f031d8863c38aa7f905eca4f53abbfa15f609db4277d44cd8938f33fe",
+      "url": "https://static.crates.io/crates/object/object-0.37.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 344032
+    },
+    {
+      "name": "oid-registry",
+      "version": "0.8.1",
+      "sha256": "12f40cff3dde1b6087cc5d5f5d4d65712f34016a03ed60e9c08dcc392736b5b7",
+      "url": "https://static.crates.io/crates/oid-registry/oid-registry-0.8.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 16668
+    },
+    {
+      "name": "once_cell",
+      "version": "1.21.4",
+      "sha256": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+      "url": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 35010
+    },
+    {
+      "name": "once_cell_polyfill",
+      "version": "1.70.2",
+      "sha256": "384b8ab6d37215f3c5301a95a4accb5d64aa607f1fcb26a11b5303878451b4fe",
+      "url": "https://static.crates.io/crates/once_cell_polyfill/once_cell_polyfill-1.70.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 7448
+    },
+    {
+      "name": "oorandom",
+      "version": "11.1.5",
+      "sha256": "d6790f58c7ff633d8771f42965289203411a5e5c68388703c06e14f24770b41e",
+      "url": "https://static.crates.io/crates/oorandom/oorandom-11.1.5.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 23750
+    },
+    {
+      "name": "opaque-debug",
+      "version": "0.3.1",
+      "sha256": "c08d65885ee38876c4f86fa503fb49d7b507c2b62552df7c70b2fce627e06381",
+      "url": "https://static.crates.io/crates/opaque-debug/opaque-debug-0.3.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 7066
+    },
+    {
+      "name": "openssl-macros",
+      "version": "0.1.1",
+      "sha256": "a948666b637a0f465e8564c73e89d4dde00d72d4d473cc972f390fc3dcee7d9c",
+      "url": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 5601
+    },
+    {
+      "name": "openssl-probe",
+      "version": "0.2.1",
+      "sha256": "7c87def4c32ab89d880effc9e097653c8da5d6ef28e6b539d313baaacfbafcbe",
+      "url": "https://static.crates.io/crates/openssl-probe/openssl-probe-0.2.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 9155
+    },
+    {
+      "name": "partial-default",
+      "version": "0.1.0",
+      "sha256": "124dc3c21ffb6fb3a0562d129929a8a54998766ef7adc1ba09ddc467d092c14b",
+      "url": "https://static.crates.io/crates/partial-default/partial-default-0.1.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15031
+    },
+    {
+      "name": "partial-default-derive",
+      "version": "0.1.0",
+      "sha256": "7459127d7a18cb202d418e4b7df1103ffd6d82a106e9b2091c250624c2ace70d",
+      "url": "https://static.crates.io/crates/partial-default-derive/partial-default-derive-0.1.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 4842
+    },
+    {
+      "name": "password-hash",
+      "version": "0.5.0",
+      "sha256": "346f04948ba92c43e8469c1ee6736c7563d71012b17d40745260fe106aac2166",
+      "url": "https://static.crates.io/crates/password-hash/password-hash-0.5.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 26884
+    },
+    {
+      "name": "paste",
+      "version": "1.0.15",
+      "sha256": "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a",
+      "url": "https://static.crates.io/crates/paste/paste-1.0.15.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 18374
+    },
+    {
+      "name": "pastey",
+      "version": "0.2.3",
+      "sha256": "2ee67f1008b1ba2321834326597b8e186293b049a023cdef258527550b9935b4",
+      "url": "https://static.crates.io/crates/pastey/pastey-0.2.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 20361
+    },
+    {
+      "name": "pbjson",
+      "version": "0.9.0",
+      "sha256": "e8edd1efdd8ab23ba9cb9ace3d9987a72663d5d7c9f74fa00b51d6213645cf6c",
+      "url": "https://static.crates.io/crates/pbjson/pbjson-0.9.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 4260
+    },
+    {
+      "name": "pbjson-build",
+      "version": "0.9.0",
+      "sha256": "2ed4d5c6ae95e08ac768883c8401cf0e8deb4e6e1d6a4e1fd3d2ec4f0ec63200",
+      "url": "https://static.crates.io/crates/pbjson-build/pbjson-build-0.9.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 19359
+    },
+    {
+      "name": "pbjson-types",
+      "version": "0.9.0",
+      "sha256": "a14e2757d877c0f607a82ce1b8560e224370f159d66c5d52eb55ea187ef0350e",
+      "url": "https://static.crates.io/crates/pbjson-types/pbjson-types-0.9.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 55843
+    },
+    {
+      "name": "pem",
+      "version": "3.0.6",
+      "sha256": "1d30c53c26bc5b31a98cd02d20f25a7c8567146caf63ed593a9d87b2775291be",
+      "url": "https://static.crates.io/crates/pem/pem-3.0.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 18362
+    },
+    {
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "sha256": "9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220",
+      "url": "https://static.crates.io/crates/percent-encoding/percent-encoding-2.3.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 11583
+    },
+    {
+      "name": "pest",
+      "version": "2.8.7",
+      "sha256": "47627dd7305c6a2d6c8c6bcd24c5a4c17dbbf425f4f9c5313e724b38fc9782e9",
+      "url": "https://static.crates.io/crates/pest/pest-2.8.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 130289
+    },
+    {
+      "name": "pest_derive",
+      "version": "2.8.7",
+      "sha256": "4b4254325ecad416ab689e27ba51da03ba01a9632bc6e108f5fe7c3c4ad29d58",
+      "url": "https://static.crates.io/crates/pest_derive/pest_derive-2.8.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 19825
+    },
+    {
+      "name": "pest_generator",
+      "version": "2.8.7",
+      "sha256": "6c4c0e91ead7a8f7acecbca6f003fc2e8282b1dbe2dd9c9d2f16aba42995e0a7",
+      "url": "https://static.crates.io/crates/pest_generator/pest_generator-2.8.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 19421
+    },
+    {
+      "name": "pest_meta",
+      "version": "2.8.7",
+      "sha256": "f9744bc48116fee06334924bb5f2bad41eed5e89bd26e29b0b799f9a3f82c210",
+      "url": "https://static.crates.io/crates/pest_meta/pest_meta-2.8.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 43505
+    },
+    {
+      "name": "petgraph",
+      "version": "0.8.3",
+      "sha256": "8701b58ea97060d5e5b155d383a69952a60943f0e6dfe30b04c287beb0b27455",
+      "url": "https://static.crates.io/crates/petgraph/petgraph-0.8.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 807555
+    },
+    {
+      "name": "phf",
+      "version": "0.11.3",
+      "sha256": "1fd6780a80ae0c52cc120a26a1a42c1ae51b247a253e4e06113d23d2c2edd078",
+      "url": "https://static.crates.io/crates/phf/phf-0.11.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 23231
+    },
+    {
+      "name": "phf_codegen",
+      "version": "0.11.3",
+      "sha256": "aef8048c789fa5e851558d709946d6d79a8ff88c0440c587967f8e94bfb1216a",
+      "url": "https://static.crates.io/crates/phf_codegen/phf_codegen-0.11.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 13741
+    },
+    {
+      "name": "phf_generator",
+      "version": "0.11.3",
+      "sha256": "3c80231409c20246a13fddb31776fb942c38553c51e871f8cbd687a4cfb5843d",
+      "url": "https://static.crates.io/crates/phf_generator/phf_generator-0.11.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15431
+    },
+    {
+      "name": "phf_shared",
+      "version": "0.11.3",
+      "sha256": "67eabc2ef2a60eb7faa00097bd1ffdb5bd28e62bf39990626a582201b7a754e5",
+      "url": "https://static.crates.io/crates/phf_shared/phf_shared-0.11.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15199
+    },
+    {
+      "name": "pin-project",
+      "version": "1.1.13",
+      "sha256": "2466b2336ed02bcdca6b294417127b90ec92038d1d5c4fbeac971a922e0e0924",
+      "url": "https://static.crates.io/crates/pin-project/pin-project-1.1.13.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 56345
+    },
+    {
+      "name": "pin-project-internal",
+      "version": "1.1.13",
+      "sha256": "c96395f0a926bc13b1c17622aaddda1ecb55d49c8f1bf9777e4d877800a43f8b",
+      "url": "https://static.crates.io/crates/pin-project-internal/pin-project-internal-1.1.13.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 29331
+    },
+    {
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "sha256": "a89322df9ebe1c1578d689c92318e070967d1042b512afbe49518723f4e6d5cd",
+      "url": "https://static.crates.io/crates/pin-project-lite/pin-project-lite-0.2.17.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 31034
+    },
+    {
+      "name": "pkg-config",
+      "version": "0.3.33",
+      "sha256": "19f132c84eca552bf34cab8ec81f1c1dcc229b811638f9d283dceabe58c5569e",
+      "url": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21590
+    },
+    {
+      "name": "plotters",
+      "version": "0.3.7",
+      "sha256": "5aeb6f403d7a4911efb1e33402027fc44f29b5bf6def3effcc22d7bb75f2b747",
+      "url": "https://static.crates.io/crates/plotters/plotters-0.3.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 149031
+    },
+    {
+      "name": "plotters-backend",
+      "version": "0.3.7",
+      "sha256": "df42e13c12958a16b3f7f4386b9ab1f3e7933914ecea48da7139435263a4172a",
+      "url": "https://static.crates.io/crates/plotters-backend/plotters-backend-0.3.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 13709
+    },
+    {
+      "name": "plotters-svg",
+      "version": "0.3.7",
+      "sha256": "51bae2ac328883f7acdfea3d66a7c35751187f870bc81f94563733a154d7a670",
+      "url": "https://static.crates.io/crates/plotters-svg/plotters-svg-0.3.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 6715
+    },
+    {
+      "name": "poly1305",
+      "version": "0.8.0",
+      "sha256": "8159bd90725d2df49889a078b54f4f79e87f1f8a8444194cdca81d38f5393abf",
+      "url": "https://static.crates.io/crates/poly1305/poly1305-0.8.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 32633
+    },
+    {
+      "name": "poly1305",
+      "version": "0.9.1",
+      "sha256": "6e2d0073b297041425c7c3df6eb4792d598a15323fe63346852b092eca02904c",
+      "url": "https://static.crates.io/crates/poly1305/poly1305-0.9.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 33625
+    },
+    {
+      "name": "polyval",
+      "version": "0.6.2",
+      "sha256": "9d1fe60d06143b2430aa532c94cfe9e29783047f06c0d7fd359a9a51b729fa25",
+      "url": "https://static.crates.io/crates/polyval/polyval-0.6.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 18425
+    },
+    {
+      "name": "polyval",
+      "version": "0.7.3",
+      "sha256": "f0fa31d631f2b2cb2a544d0aa321ce847a94764d701ca2becc411138b93d49cd",
+      "url": "https://static.crates.io/crates/polyval/polyval-0.7.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 26284
+    },
+    {
+      "name": "portable-atomic",
+      "version": "1.13.1",
+      "sha256": "c33a9471896f1c69cecef8d20cbe2f7accd12527ce60845ff44c153bb2a21b49",
+      "url": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.13.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 197001
+    },
+    {
+      "name": "portable-atomic-util",
+      "version": "0.2.7",
+      "sha256": "c2a106d1259c23fac8e543272398ae0e3c0b8d33c88ed73d0cc71b0f1d902618",
+      "url": "https://static.crates.io/crates/portable-atomic-util/portable-atomic-util-0.2.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 53577
+    },
+    {
+      "name": "potential_utf",
+      "version": "0.1.5",
+      "sha256": "0103b1cef7ec0cf76490e969665504990193874ea05c85ff9bab8b911d0a0564",
+      "url": "https://static.crates.io/crates/potential_utf/potential_utf-0.1.5.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 10189
+    },
+    {
+      "name": "powerfmt",
+      "version": "0.2.0",
+      "sha256": "439ee305def115ba05938db6eb1644ff94165c5ab5e9420d1c1bcedbba909391",
+      "url": "https://static.crates.io/crates/powerfmt/powerfmt-0.2.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15165
+    },
+    {
+      "name": "ppv-lite86",
+      "version": "0.2.21",
+      "sha256": "85eae3c4ed2f50dcfe72643da4befc30deadb458a9b590d720cde2f2b1e97da9",
+      "url": "https://static.crates.io/crates/ppv-lite86/ppv-lite86-0.2.21.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22522
+    },
+    {
+      "name": "predicates",
+      "version": "3.1.4",
+      "sha256": "ada8f2932f28a27ee7b70dd6c1c39ea0675c55a36879ab92f3a715eaa1e63cfe",
+      "url": "https://static.crates.io/crates/predicates/predicates-3.1.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 24327
+    },
+    {
+      "name": "predicates-core",
+      "version": "1.0.10",
+      "sha256": "cad38746f3166b4031b1a0d39ad9f954dd291e7854fcc0eed52ee41a0b50d144",
+      "url": "https://static.crates.io/crates/predicates-core/predicates-core-1.0.10.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 8649
+    },
+    {
+      "name": "predicates-tree",
+      "version": "1.0.13",
+      "sha256": "d0de1b847b39c8131db0467e9df1ff60e6d0562ab8e9a16e568ad0fdb372e2f2",
+      "url": "https://static.crates.io/crates/predicates-tree/predicates-tree-1.0.13.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 8422
+    },
+    {
+      "name": "pretty_assertions",
+      "version": "1.4.1",
+      "sha256": "3ae130e2f271fbc2ac3a40fb1d07180839cdbbe443c7a27e1e3c13c5cac0116d",
+      "url": "https://static.crates.io/crates/pretty_assertions/pretty_assertions-1.4.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 78952
+    },
+    {
+      "name": "prettyplease",
+      "version": "0.2.37",
+      "sha256": "479ca8adacdd7ce8f1fb39ce9ecccbfe93a3f1344b3d0d97f20bc0196208f62b",
+      "url": "https://static.crates.io/crates/prettyplease/prettyplease-0.2.37.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 72033
+    },
+    {
+      "name": "proc-macro-crate",
+      "version": "3.5.0",
+      "sha256": "e67ba7e9b2b56446f1d419b1d807906278ffa1a658a8a5d8a39dcb1f5a78614f",
+      "url": "https://static.crates.io/crates/proc-macro-crate/proc-macro-crate-3.5.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 12709
+    },
+    {
+      "name": "proc-macro-error-attr2",
+      "version": "2.0.0",
+      "sha256": "96de42df36bb9bba5542fe9f1a054b8cc87e172759a1868aa05c1f3acc89dfc5",
+      "url": "https://static.crates.io/crates/proc-macro-error-attr2/proc-macro-error-attr2-2.0.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 7745
+    },
+    {
+      "name": "proc-macro-error2",
+      "version": "2.0.1",
+      "sha256": "11ec05c52be0a07b08061f7dd003e7d7092e0472bc731b4af7bb1ef876109802",
+      "url": "https://static.crates.io/crates/proc-macro-error2/proc-macro-error2-2.0.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 24807
+    },
+    {
+      "name": "proc-macro2",
+      "version": "1.0.106",
+      "sha256": "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934",
+      "url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 59765
+    },
+    {
+      "name": "procfs-core",
+      "version": "0.18.0",
+      "sha256": "e6401bf7b6af22f78b563665d15a22e9aef27775b79b149a66ca022468a4e405",
+      "url": "https://static.crates.io/crates/procfs-core/procfs-core-0.18.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 92618
+    },
+    {
+      "name": "proptest",
+      "version": "1.11.0",
+      "sha256": "4b45fcc2344c680f5025fe57779faef368840d0bd1f42f216291f0dc4ace4744",
+      "url": "https://static.crates.io/crates/proptest/proptest-1.11.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 207859
+    },
+    {
+      "name": "proptest-arbitrary-interop",
+      "version": "0.1.0",
+      "sha256": "a1981e49bd2432249da8b0e11e5557099a8e74690d6b94e721f7dc0bb7f3555f",
+      "url": "https://static.crates.io/crates/proptest-arbitrary-interop/proptest-arbitrary-interop-0.1.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 3560
+    },
+    {
+      "name": "prost",
+      "version": "0.14.4",
+      "sha256": "528ac67416ff8646872a3c02cad9cc4ee5dc9f9540c9b10771855c95cb2e5ae1",
+      "url": "https://static.crates.io/crates/prost/prost-0.14.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 35717
+    },
+    {
+      "name": "prost-build",
+      "version": "0.14.4",
+      "sha256": "03da047801ff44bb6a4d407d4860c05fd70bb81714e6b2f3812603d5b145b042",
+      "url": "https://static.crates.io/crates/prost-build/prost-build-0.14.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 48616
+    },
+    {
+      "name": "prost-derive",
+      "version": "0.14.4",
+      "sha256": "b570b25f7617e43d59005d0990ccb79e950a423952cea19671b7a876da390adf",
+      "url": "https://static.crates.io/crates/prost-derive/prost-derive-0.14.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21537
+    },
+    {
+      "name": "prost-types",
+      "version": "0.14.4",
+      "sha256": "f94967dc7688f3054c7fac87473ffae4cc4c3904800e2d9f5b857246d8963b0a",
+      "url": "https://static.crates.io/crates/prost-types/prost-types-0.14.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 51454
+    },
+    {
+      "name": "protobuf",
+      "version": "3.7.2",
+      "sha256": "d65a1d4ddae7d8b5de68153b48f6aa3bba8cb002b243dbdbc55a5afbc98f99f4",
+      "url": "https://static.crates.io/crates/protobuf/protobuf-3.7.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 211978
+    },
+    {
+      "name": "protobuf-codegen",
+      "version": "3.7.2",
+      "sha256": "5d3976825c0014bbd2f3b34f0001876604fe87e0c86cd8fa54251530f1544ace",
+      "url": "https://static.crates.io/crates/protobuf-codegen/protobuf-codegen-3.7.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 58021
+    },
+    {
+      "name": "protobuf-parse",
+      "version": "3.7.2",
+      "sha256": "b4aeaa1f2460f1d348eeaeed86aea999ce98c1bded6f089ff8514c9d9dbdc973",
+      "url": "https://static.crates.io/crates/protobuf-parse/protobuf-parse-3.7.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 68279
+    },
+    {
+      "name": "protobuf-support",
+      "version": "3.7.2",
+      "sha256": "3e36c2f31e0a47f9280fb347ef5e461ffcd2c52dd520d8e216b52f93b0b0d7d6",
+      "url": "https://static.crates.io/crates/protobuf-support/protobuf-support-3.7.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 11725
+    },
+    {
+      "name": "quick-error",
+      "version": "1.2.3",
+      "sha256": "a1d01941d82fa2ab50be1e79e6714289dd7cde78eba4c074bc5a4374f650dfe0",
+      "url": "https://static.crates.io/crates/quick-error/quick-error-1.2.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15066
+    },
+    {
+      "name": "quote",
+      "version": "1.0.46",
+      "sha256": "dfbc457d0c7a0759a614551b11a6409e5951f6c7537be1f1b7682b9ae9230368",
+      "url": "https://static.crates.io/crates/quote/quote-1.0.46.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 31628
+    },
+    {
+      "name": "r-efi",
+      "version": "5.3.0",
+      "sha256": "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f",
+      "url": "https://static.crates.io/crates/r-efi/r-efi-5.3.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 64532
+    },
+    {
+      "name": "r-efi",
+      "version": "6.0.0",
+      "sha256": "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf",
+      "url": "https://static.crates.io/crates/r-efi/r-efi-6.0.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 65303
+    },
+    {
+      "name": "rand",
+      "version": "0.8.6",
+      "sha256": "5ca0ecfa931c29007047d1bc58e623ab12e5590e8c7cc53200d5202b69266d8a",
+      "url": "https://static.crates.io/crates/rand/rand-0.8.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 83339
+    },
+    {
+      "name": "rand",
+      "version": "0.9.4",
+      "sha256": "44c5af06bb1b7d3216d91932aed5265164bf384dc89cd6ba05cf59a35f5f76ea",
+      "url": "https://static.crates.io/crates/rand/rand-0.9.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 99786
+    },
+    {
+      "name": "rand",
+      "version": "0.10.2",
+      "sha256": "c7f5fa3a058cd35567ef9bfa5e75732bee0f9e4c55fa90477bef2dfcdbc4be80",
+      "url": "https://static.crates.io/crates/rand/rand-0.10.2.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 104493
+    },
+    {
+      "name": "rand_chacha",
+      "version": "0.9.0",
+      "sha256": "d3022b5f1df60f26e1ffddd6c66e8aa15de382ae63b3a0c1bfc0e4d3e3f325cb",
+      "url": "https://static.crates.io/crates/rand_chacha/rand_chacha-0.9.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 18258
+    },
+    {
+      "name": "rand_core",
+      "version": "0.6.4",
+      "sha256": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
+      "url": "https://static.crates.io/crates/rand_core/rand_core-0.6.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22666
+    },
+    {
+      "name": "rand_core",
+      "version": "0.9.5",
+      "sha256": "76afc826de14238e6e8c374ddcc1fa19e374fd8dd986b0d2af0d02377261d83c",
+      "url": "https://static.crates.io/crates/rand_core/rand_core-0.9.5.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 24129
+    },
+    {
+      "name": "rand_core",
+      "version": "0.10.1",
+      "sha256": "63b8176103e19a2643978565ca18b50549f6101881c443590420e4dc998a3c69",
+      "url": "https://static.crates.io/crates/rand_core/rand_core-0.10.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22833
+    },
+    {
+      "name": "rand_distr",
+      "version": "0.5.1",
+      "sha256": "6a8615d50dcf34fa31f7ab52692afec947c4dd0ab803cc87cb3b0b4570ff7463",
+      "url": "https://static.crates.io/crates/rand_distr/rand_distr-0.5.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 75593
+    },
+    {
+      "name": "rand_xorshift",
+      "version": "0.4.0",
+      "sha256": "513962919efc330f829edb2535844d1b912b0fbe2ca165d613e4e8788bb05a5a",
+      "url": "https://static.crates.io/crates/rand_xorshift/rand_xorshift-0.4.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 10262
+    },
+    {
+      "name": "range-map",
+      "version": "0.2.0",
+      "sha256": "12a5a2d6c7039059af621472a4389be1215a816df61aa4d531cfe85264aee95f",
+      "url": "https://static.crates.io/crates/range-map/range-map-0.2.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 14176
+    },
+    {
+      "name": "rangemap",
+      "version": "1.7.1",
+      "sha256": "973443cf09a9c8656b574a866ab68dfa19f0867d0340648c7d2f6a71b8a8ea68",
+      "url": "https://static.crates.io/crates/rangemap/rangemap-1.7.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 58127
+    },
+    {
+      "name": "rayon",
+      "version": "1.12.0",
+      "sha256": "fb39b166781f92d482534ef4b4b1b2568f42613b53e5b6c160e24cfbfa30926d",
+      "url": "https://static.crates.io/crates/rayon/rayon-1.12.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 183391
+    },
+    {
+      "name": "rayon-core",
+      "version": "1.13.0",
+      "sha256": "22e18b0f0062d30d4230b2e85ff77fdfe4326feb054b9783a3460d8435c8ab91",
+      "url": "https://static.crates.io/crates/rayon-core/rayon-core-1.13.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 73151
+    },
+    {
+      "name": "rcgen",
+      "version": "0.14.8",
+      "sha256": "57f6d249aad744e274e682777a50283a225a32705394ee6d5fcc01efa25e4055",
+      "url": "https://static.crates.io/crates/rcgen/rcgen-0.14.8.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 64669
+    },
+    {
+      "name": "ref-cast",
+      "version": "1.0.25",
+      "sha256": "f354300ae66f76f1c85c5f84693f0ce81d747e2c3f21a45fef496d89c960bf7d",
+      "url": "https://static.crates.io/crates/ref-cast/ref-cast-1.0.25.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15192
+    },
+    {
+      "name": "ref-cast-impl",
+      "version": "1.0.25",
+      "sha256": "b7186006dcb21920990093f30e3dea63b7d6e977bf1256be20c3563a5db070da",
+      "url": "https://static.crates.io/crates/ref-cast-impl/ref-cast-impl-1.0.25.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 10167
+    },
+    {
+      "name": "regex",
+      "version": "1.12.4",
+      "sha256": "f1292b7759ae1cb9ec195452d1390a074f0cd8541ab7a5a8c31cd6db45d4a6ba",
+      "url": "https://static.crates.io/crates/regex/regex-1.12.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 153468
+    },
+    {
+      "name": "regex-automata",
+      "version": "0.4.14",
+      "sha256": "6e1dd4122fc1595e8162618945476892eefca7b88c52820e74af6262213cae8f",
+      "url": "https://static.crates.io/crates/regex-automata/regex-automata-0.4.14.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 618012
+    },
+    {
+      "name": "regex-syntax",
+      "version": "0.8.11",
+      "sha256": "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4",
+      "url": "https://static.crates.io/crates/regex-syntax/regex-syntax-0.8.11.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 359055
+    },
+    {
+      "name": "ring",
+      "version": "0.17.14",
+      "sha256": "a4689e6c2294d81e88dc6261c768b63bc4fcdb852be6d1352498b114f61383b7",
+      "url": "https://static.crates.io/crates/ring/ring-0.17.14.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 1502610
+    },
+    {
+      "name": "rustc-demangle",
+      "version": "0.1.27",
+      "sha256": "b50b8869d9fc858ce7266cce0194bd74df58b9d0e3f6df3a9fc8eb470d95c09d",
+      "url": "https://static.crates.io/crates/rustc-demangle/rustc-demangle-0.1.27.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 30448
+    },
+    {
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "sha256": "6b1e7f9a428571be2dc5bc0505c13fb6bf936822b894ec87abf8a08a4e51742d",
+      "url": "https://static.crates.io/crates/rustc-hash/rustc-hash-2.1.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 14811
+    },
+    {
+      "name": "rustc_version",
+      "version": "0.4.1",
+      "sha256": "cfcb3a22ef46e85b45de6ee7e79d063319ebb6594faafcf1c225ea92ab6e9b92",
+      "url": "https://static.crates.io/crates/rustc_version/rustc_version-0.4.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 12245
+    },
+    {
+      "name": "rusticata-macros",
+      "version": "4.1.0",
+      "sha256": "faf0c4a6ece9950b9abdb62b1cfcf2a68b3b67a10ba445b3bb85be2a293d0632",
+      "url": "https://static.crates.io/crates/rusticata-macros/rusticata-macros-4.1.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 11746
+    },
+    {
+      "name": "rustix",
+      "version": "0.38.44",
+      "sha256": "fdb5bc1ae2baa591800df16c9ca78619bf65c0488b41b96ccec5d11220d8c154",
+      "url": "https://static.crates.io/crates/rustix/rustix-0.38.44.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 379347
+    },
+    {
+      "name": "rustix",
+      "version": "1.1.4",
+      "sha256": "b6fe4565b9518b83ef4f91bb47ce29620ca828bd32cb7e408f0062e9930ba190",
+      "url": "https://static.crates.io/crates/rustix/rustix-1.1.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 425241
+    },
+    {
+      "name": "rustls",
+      "version": "0.23.45",
+      "sha256": "0d41d731c7d2f962d1ccc364cec258de3c0e93b38c2fb3ba97ac74513048d634",
+      "url": "https://static.crates.io/crates/rustls/rustls-0.23.45.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 378933
+    },
+    {
+      "name": "rustls-native-certs",
+      "version": "0.8.4",
+      "sha256": "dab5152771c58876a2146916e53e35057e1a4dfa2b9df0f0305b07f611fdea4d",
+      "url": "https://static.crates.io/crates/rustls-native-certs/rustls-native-certs-0.8.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22129
+    },
+    {
+      "name": "rustls-pki-types",
+      "version": "1.15.0",
+      "sha256": "764899a24af3980067ee14bc143654f297b22eaebfe3c7b6b211920a5a59b046",
+      "url": "https://static.crates.io/crates/rustls-pki-types/rustls-pki-types-1.15.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 35697
+    },
+    {
+      "name": "rustls-platform-verifier",
+      "version": "0.7.1",
+      "sha256": "1167586491e2b18b8bfbb293e8180ec17c201c4f076d7cb3070ca964e7598f98",
+      "url": "https://static.crates.io/crates/rustls-platform-verifier/rustls-platform-verifier-0.7.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 60698
+    },
+    {
+      "name": "rustls-platform-verifier-android",
+      "version": "0.2.0",
+      "sha256": "eec689c0bc40ff2458a5977b6619cb718087084a18e02a131c599b62d05e1a5f",
+      "url": "https://static.crates.io/crates/rustls-platform-verifier-android/rustls-platform-verifier-android-0.2.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 16451
+    },
+    {
+      "name": "rustls-webpki",
+      "version": "0.103.15",
+      "sha256": "f3c3cf1d8b1e7d4927e2d154c3fcb02979afb9939629c62cd9048d4f07b60ac2",
+      "url": "https://static.crates.io/crates/rustls-webpki/rustls-webpki-0.103.15.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 87465
+    },
+    {
+      "name": "rustversion",
+      "version": "1.0.23",
+      "sha256": "cf54715a573b99ac80df0bc206da022bcd442c974952c7b9720069370852e21f",
+      "url": "https://static.crates.io/crates/rustversion/rustversion-1.0.23.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21013
+    },
+    {
+      "name": "rusty-fork",
+      "version": "0.3.1",
+      "sha256": "cc6bf79ff24e648f6da1f8d1f011e9cac26491b619e6b9280f2b47f1774e6ee2",
+      "url": "https://static.crates.io/crates/rusty-fork/rusty-fork-0.3.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21108
+    },
+    {
+      "name": "ryu",
+      "version": "1.0.23",
+      "sha256": "9774ba4a74de5f7b1c1451ed6cd5285a32eddb5cccb8cc655a4e50009e06477f",
+      "url": "https://static.crates.io/crates/ryu/ryu-1.0.23.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 52823
+    },
+    {
+      "name": "same-file",
+      "version": "1.0.6",
+      "sha256": "93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502",
+      "url": "https://static.crates.io/crates/same-file/same-file-1.0.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 10183
+    },
+    {
+      "name": "schannel",
+      "version": "0.1.29",
+      "sha256": "91c1b7e4904c873ef0710c1f407dde2e6287de2bebc1bbbf7d430bb7cbffd939",
+      "url": "https://static.crates.io/crates/schannel/schannel-0.1.29.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 34352
+    },
+    {
+      "name": "schemars",
+      "version": "0.9.0",
+      "sha256": "4cd191f9397d57d581cddd31014772520aa448f65ef991055d7f61582c65165f",
+      "url": "https://static.crates.io/crates/schemars/schemars-0.9.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 80032
+    },
+    {
+      "name": "schemars",
+      "version": "1.2.1",
+      "sha256": "a2b42f36aa1cd011945615b92222f6bf73c599a102a300334cd7f8dbeec726cc",
+      "url": "https://static.crates.io/crates/schemars/schemars-1.2.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 94403
+    },
+    {
+      "name": "scoped-tls",
+      "version": "1.0.1",
+      "sha256": "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294",
+      "url": "https://static.crates.io/crates/scoped-tls/scoped-tls-1.0.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 8202
+    },
+    {
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "sha256": "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49",
+      "url": "https://static.crates.io/crates/scopeguard/scopeguard-1.2.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 11619
+    },
+    {
+      "name": "scroll",
+      "version": "0.13.0",
+      "sha256": "c1257cd4248b4132760d6524d6dda4e053bc648c9070b960929bf50cfb1e7add",
+      "url": "https://static.crates.io/crates/scroll/scroll-0.13.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 24154
+    },
+    {
+      "name": "scroll_derive",
+      "version": "0.13.1",
+      "sha256": "ed76efe62313ab6610570951494bdaa81568026e0318eaa55f167de70eeea67d",
+      "url": "https://static.crates.io/crates/scroll_derive/scroll_derive-0.13.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 8167
+    },
+    {
+      "name": "security-framework",
+      "version": "3.7.0",
+      "sha256": "b7f4bc775c73d9a02cde8bf7b2ec4c9d12743edf609006c7facc23998404cd1d",
+      "url": "https://static.crates.io/crates/security-framework/security-framework-3.7.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 89115
+    },
+    {
+      "name": "security-framework-sys",
+      "version": "2.17.0",
+      "sha256": "6ce2691df843ecc5d231c0b14ece2acc3efb62c0a398c7e1d875f3983ce020e3",
+      "url": "https://static.crates.io/crates/security-framework-sys/security-framework-sys-2.17.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 21078
+    },
+    {
+      "name": "semver",
+      "version": "1.0.28",
+      "sha256": "8a7852d02fc848982e0c167ef163aaff9cd91dc640ba85e263cb1ce46fae51cd",
+      "url": "https://static.crates.io/crates/semver/semver-1.0.28.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 33064
+    },
+    {
+      "name": "send_wrapper",
+      "version": "0.6.0",
+      "sha256": "cd0b0ec5f1c1ca621c432a25813d8d60c88abe6d3e08a3eb9cf37d97a0fe3d73",
+      "url": "https://static.crates.io/crates/send_wrapper/send_wrapper-0.6.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 10519
+    },
+    {
+      "name": "serde",
+      "version": "1.0.228",
+      "sha256": "9a8e94ea7f378bd32cbbd37198a4a91436180c5bb472411e48b5ec2e2124ae9e",
+      "url": "https://static.crates.io/crates/serde/serde-1.0.228.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 83652
+    },
+    {
+      "name": "serde_core",
+      "version": "1.0.228",
+      "sha256": "41d385c7d4ca58e59fc732af25c3983b67ac852c1a25000afe1175de458b67ad",
+      "url": "https://static.crates.io/crates/serde_core/serde_core-1.0.228.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 63111
+    },
+    {
+      "name": "serde_derive",
+      "version": "1.0.228",
+      "sha256": "d540f220d3187173da220f885ab66608367b6574e925011a9353e4badda91d79",
+      "url": "https://static.crates.io/crates/serde_derive/serde_derive-1.0.228.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 59605
+    },
+    {
+      "name": "serde_json",
+      "version": "1.0.150",
+      "sha256": "e8014e44b4736ed0538adeecded0fce2a272f22dc9578a7eb6b2d9993c74cfb9",
+      "url": "https://static.crates.io/crates/serde_json/serde_json-1.0.150.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 155574
+    },
+    {
+      "name": "serde_json5",
+      "version": "0.2.1",
+      "sha256": "5d34d03f54462862f2a42918391c9526337f53171eaa4d8894562be7f252edd3",
+      "url": "https://static.crates.io/crates/serde_json5/serde_json5-0.2.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22120
+    },
+    {
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "sha256": "d3491c14715ca2294c4d6a88f15e84739788c1d030eed8c110436aafdaa2f3fd",
+      "url": "https://static.crates.io/crates/serde_urlencoded/serde_urlencoded-0.7.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 12822
+    },
+    {
+      "name": "serde_with",
+      "version": "3.21.0",
+      "sha256": "76a5c54c7310e7b8b9577c286d7e399ddd876c3e12b3ed917a8aabc4b96e9e8c",
+      "url": "https://static.crates.io/crates/serde_with/serde_with-3.21.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 205649
+    },
+    {
+      "name": "serde_with_macros",
+      "version": "3.21.0",
+      "sha256": "84d57bc0c8b9a17920c178daa6bb924850d54a9c97ab45194bb8c17ad66bb660",
+      "url": "https://static.crates.io/crates/serde_with_macros/serde_with_macros-3.21.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 38159
+    },
+    {
+      "name": "sha1",
+      "version": "0.10.6",
+      "sha256": "e3bf829a2d51ab4a5ddf1352d8470c140cadc8301b2ae1789db023f01cedd6ba",
+      "url": "https://static.crates.io/crates/sha1/sha1-0.10.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 13517
+    },
+    {
+      "name": "sha1",
+      "version": "0.11.0",
+      "sha256": "aacc4cc499359472b4abe1bf11d0b12e688af9a805fa5e3016f9a386dc2d0214",
+      "url": "https://static.crates.io/crates/sha1/sha1-0.11.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 15458
+    },
+    {
+      "name": "sha1_smol",
+      "version": "1.0.1",
+      "sha256": "bbfa15b3dddfee50a0fff136974b3e1bde555604ba463834a7eb7deb6417705d",
+      "url": "https://static.crates.io/crates/sha1_smol/sha1_smol-1.0.1.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 9809
+    }
+  ]
+}

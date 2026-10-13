@@ -17,3 +17,7 @@ This is a source-only publication. It is NOT a new signed APK release, device-te
 No signing keys, credentials, user messages, account databases, private repository history, or runtime approval records are included. The private development repository remains private.
 
 Publication makes the current app implementation inspectable. It does not certify complete corresponding-source closure for every third-party native binary or reproducible APK builds. See DEPENDENCIES.md before redistributing a new binary.
+
+## Dependency source downloads
+
+See [SOURCE_DOWNLOADS.md](SOURCE_DOWNLOADS.md) for verified immutable upstream archives, all 567 Cargo.lock registry-source checksums, native submodule placement, additional notices and the inspected unsigned APK correspondence. This index documents remaining provenance/runtime limitations; it is not a new APK release.

@@ -1,0 +1,93 @@
+{
+  "source_revision": "518b5b73bad55478850315d7c5db690bfd456baa",
+  "kind": "unsigned build; not an installable release",
+  "notices": {
+    "apk_sha256": "ecafda52c4ccf36b4a85dba7ac064adc1da49357ccb814ec59351ad57fc4ed1f",
+    "apk_bytes": 72119353,
+    "notices": [
+      {
+        "path": "assets/acknowledgments/libsignal-testing.md",
+        "bytes": 379158,
+        "sha256": "78a887f44a6c2773c68ae52a77a874a1c47d2527baa157a72331e68a5f1f6104"
+      },
+      {
+        "path": "assets/acknowledgments/libsignal.md",
+        "bytes": 379124,
+        "sha256": "3e2148370a799680508e4a372f4258611b7f5f9ac9965c5504756e78ec2d72e5"
+      },
+      {
+        "path": "assets/guardianproject-tor-android-LICENSE.txt",
+        "bytes": 7331,
+        "sha256": "ead918e4ca90496c08cae119d90ddd832753139c89d61d0718e8b48bc97d7802"
+      },
+      {
+        "path": "assets/libsignal-LICENSE.txt",
+        "bytes": 34523,
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+      },
+      {
+        "path": "assets/libsignal-NOTICE.md",
+        "bytes": 558,
+        "sha256": "282ecac53096f9d43924095080c54fdfdcbb036ebd20037ce1ea6a907cf48ad3"
+      },
+      {
+        "path": "assets/netty-LICENSE.txt",
+        "bytes": 11360,
+        "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+      },
+      {
+        "path": "assets/netty-NOTICE.txt",
+        "bytes": 9039,
+        "sha256": "64e368e79be71463922ebb102b33088667cf975edeed8df7f68efe9f89835ca1"
+      },
+      {
+        "path": "assets/zxing-LICENSE.txt",
+        "bytes": 13320,
+        "sha256": "3f62881f0566227a24b12e5a754cc79f39aaa94883038e95c94812e1f50af42f"
+      }
+    ]
+  },
+  "native": [
+    {
+      "path": "lib/arm64-v8a/libtor.so",
+      "sha256": "25fb2bb6b7f23db1f7f56eb8444cae365ccdfe75dfa803f72c6bbaad03db63a2",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/armeabi-v7a/libtor.so",
+      "sha256": "143bc62f94c64ec87f5bb841f34faa19607c40d6ab1d6aba29ea6e21cf781736",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/x86/libtor.so",
+      "sha256": "06574596f6d9397631040de67266364e154d4b03999ae3db6295713d97fa799d",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/x86_64/libtor.so",
+      "sha256": "32c440cf42052b2126e49a936399f8eeef64a93ea07451df67cc057eaa145b0e",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/arm64-v8a/libsignal_jni.so",
+      "sha256": "aae5991d40b4c583271afe37ac1f58c7a5492544bf5bbfdfb1921c678d8dfc81",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/armeabi-v7a/libsignal_jni.so",
+      "sha256": "c891c327b6286b184d974bdca5126495d2ce73cd1cf35cd57e6e9dc28cc67080",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/x86/libsignal_jni.so",
+      "sha256": "a09dddaa1946edb555779cd42690be902e520de49ffd4da3c65f1708b2e76281",
+      "matches_pin": true
+    },
+    {
+      "path": "lib/x86_64/libsignal_jni.so",
+      "sha256": "05b921e29c5398285dc46c942ac552cc2ee580c614a3090590366b56e1151ee6",
+      "matches_pin": true
+    }
+  ],
+  "runtime_result": "not assessed in this source audit"
+}

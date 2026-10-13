@@ -1,0 +1,69 @@
+{
+  "scope": "libsignal 0.105.0 whole-workspace Cargo.lock source superset, not an APK package inventory",
+  "verified_date": "2026-10-13",
+  "packages": [
+    {
+      "name": "zerofrom-derive",
+      "version": "0.1.7",
+      "sha256": "11532158c46691caf0f2593ea8358fed6bbf68a0315e80aae9bd41fbade684a1",
+      "url": "https://static.crates.io/crates/zerofrom-derive/zerofrom-derive-0.1.7.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 8853
+    },
+    {
+      "name": "zeroize",
+      "version": "1.9.0",
+      "sha256": "e13c156562582aa81c60cb29407084cdb54c4164760106ab78e6c5b0858cf64e",
+      "url": "https://static.crates.io/crates/zeroize/zeroize-1.9.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 24480
+    },
+    {
+      "name": "zeroize_derive",
+      "version": "1.5.0",
+      "sha256": "3c50655cbb0fe3fc43170059e702f1ce5e19b84cec58dc87b037a09935c2f328",
+      "url": "https://static.crates.io/crates/zeroize_derive/zeroize_derive-1.5.0.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 12034
+    },
+    {
+      "name": "zerotrie",
+      "version": "0.2.4",
+      "sha256": "0f9152d31db0792fa83f70fb2f83148effb5c1f5b8c7686c3459e361d9bc20bf",
+      "url": "https://static.crates.io/crates/zerotrie/zerotrie-0.2.4.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 83690
+    },
+    {
+      "name": "zerovec",
+      "version": "0.11.6",
+      "sha256": "90f911cbc359ab6af17377d242225f4d75119aec87ea711a880987b18cd7b239",
+      "url": "https://static.crates.io/crates/zerovec/zerovec-0.11.6.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 128583
+    },
+    {
+      "name": "zerovec-derive",
+      "version": "0.11.3",
+      "sha256": "625dc425cab0dca6dc3c3319506e6593dcb08a9f387ea3b284dbd52a92c40555",
+      "url": "https://static.crates.io/crates/zerovec-derive/zerovec-derive-0.11.3.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 22115
+    },
+    {
+      "name": "zmij",
+      "version": "1.0.21",
+      "sha256": "b8848ee67ecc8aedbaf3e4122217aff892639231befc6a1b58d29fff4c2cabaa",
+      "url": "https://static.crates.io/crates/zmij/zmij-1.0.21.crate",
+      "availability_verified": true,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "bytes": 26665
+    }
+  ]
+}

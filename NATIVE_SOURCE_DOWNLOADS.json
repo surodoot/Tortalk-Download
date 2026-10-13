@@ -1,0 +1,96 @@
+[
+  {
+    "name": "libsignal",
+    "commit": "4beb029d8a941f81e7d9c6d8af1ed25a677569a8",
+    "url": "https://codeload.github.com/signalapp/libsignal/zip/4beb029d8a941f81e7d9c6d8af1ed25a677569a8",
+    "bytes": 4185395,
+    "sha256": "f68f40ccbaac6633e0f986dd3a5174e4a7395cb4ebc0a4e020f93a81788293c3",
+    "verified": true
+  },
+  {
+    "name": "boring",
+    "commit": "1405df0a23a0335618f88ed328c76f67646b088f",
+    "url": "https://codeload.github.com/signalapp/boring/zip/1405df0a23a0335618f88ed328c76f67646b088f",
+    "bytes": 409521,
+    "sha256": "56ab896c76844c3a563ab067da1fcdba2b0224794be6f88d30c04c0373b20844",
+    "status": "downloaded"
+  },
+  {
+    "name": "spqr",
+    "commit": "06959b4708f9b7b1e94d0f8cc835f3958c077e94",
+    "url": "https://codeload.github.com/signalapp/SparsePostQuantumRatchet/zip/06959b4708f9b7b1e94d0f8cc835f3958c077e94",
+    "bytes": 216820,
+    "sha256": "82974be7a2691e574d3f72ece5299475034815715520dd32b8178358a1436620",
+    "status": "downloaded"
+  },
+  {
+    "name": "boringssl",
+    "commit": "e2a57cfb4d915b4ba820585aef9fdee7bca13fe5",
+    "url": "https://codeload.github.com/google/boringssl/zip/e2a57cfb4d915b4ba820585aef9fdee7bca13fe5",
+    "bytes": 76137895,
+    "sha256": "edfc0c2f990fc9e221df8ddaafece3ac0b30f3f8e463a1f280f5b76d423af44e",
+    "status": "downloaded"
+  },
+  {
+    "name": "tor-android",
+    "commit": "170a3b4b7d13078142d34f5ac536d8f9c3cb89b6",
+    "url": "https://codeload.github.com/guardianproject/tor-android/zip/170a3b4b7d13078142d34f5ac536d8f9c3cb89b6",
+    "bytes": 105638,
+    "sha256": "b8e739ce889988f1682b20518c634192c0451d0a27ad2063e1973cfc7febbf06",
+    "status": "downloaded"
+  },
+  {
+    "path": "external/elf-cleaner",
+    "repository": "termux/termux-elf-cleaner",
+    "commit": "e4f87f8d13541779756f4907c6957d2a000653da",
+    "url": "https://codeload.github.com/termux/termux-elf-cleaner/zip/e4f87f8d13541779756f4907c6957d2a000653da",
+    "bytes": 9618185,
+    "sha256": "91b731347522f9acf6e645085f138646d8cda99b791cfc416368e303460246a0",
+    "verified": true
+  },
+  {
+    "path": "external/libevent",
+    "repository": "libevent/libevent",
+    "commit": "79ddfb460847999b807cba76d04e73891f29c6ee",
+    "url": "https://codeload.github.com/libevent/libevent/zip/79ddfb460847999b807cba76d04e73891f29c6ee",
+    "bytes": 937665,
+    "sha256": "69a82f84891f017cfe7ef74b93b983fd046323eb4975c4c39bcb11baaf7755ac",
+    "verified": true
+  },
+  {
+    "path": "external/openssl",
+    "repository": "openssl/openssl",
+    "commit": "45e844fa2a14ec92d146bd8f5778ac130b6625fb",
+    "url": "https://codeload.github.com/openssl/openssl/zip/45e844fa2a14ec92d146bd8f5778ac130b6625fb",
+    "bytes": 57394662,
+    "sha256": "ae1f09803e0b8810b96b23c4958f32cc74141048734ee2c9a5fd8fbc3d4f78fe",
+    "verified": true
+  },
+  {
+    "path": "external/tor",
+    "repository": "bitmold/tor",
+    "commit": "8aa9ce2e4e3332ef10f5b7f7e0562c60affe2ece",
+    "url": "https://codeload.github.com/bitmold/tor/zip/8aa9ce2e4e3332ef10f5b7f7e0562c60affe2ece",
+    "bytes": 12079284,
+    "sha256": "a6bd0060e3cef0002a99b525393e7730b894f1d40008d2f108597d4dbbdae10f",
+    "verified": true
+  },
+  {
+    "path": "external/zlib",
+    "repository": "madler/zlib",
+    "commit": "da607da739fa6047df13e66a2af6b8bec7c2a498",
+    "url": "https://codeload.github.com/madler/zlib/zip/da607da739fa6047df13e66a2af6b8bec7c2a498",
+    "bytes": 1692031,
+    "sha256": "21de001766abb1f5bfdfb3c23aa42d30a6bbd7eddd37131d5e7fe89c5ec068f8",
+    "verified": true
+  },
+  {
+    "path": "external/zstd",
+    "repository": "facebook/zstd",
+    "commit": "f8745da6ff1ad1e7bab384bd1f9d742439278e99",
+    "url": "https://codeload.github.com/facebook/zstd/zip/f8745da6ff1ad1e7bab384bd1f9d742439278e99",
+    "bytes": 2805412,
+    "sha256": "e3b677f3edf60df600b1cc56f629e8cac93d5f2bd421d8f71c33d88abd3bff46",
+    "verified": true
+  }
+]
