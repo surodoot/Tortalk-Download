@@ -1,0 +1,18 @@
+<resources>
+    <!-- The same approved web palette also applies to native credential dialogs. -->
+    <style name="TorTalkTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">#284D43</item>
+        <item name="android:colorBackground">#F7F6F0</item>
+        <item name="android:windowBackground">#F7F6F0</item>
+        <item name="android:textColorPrimary">#253A33</item>
+        <item name="android:textColorSecondary">#59685B</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:alertDialogTheme">@style/TorTalkDialog</item>
+    </style>
+    <style name="TorTalkDialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">#284D43</item>
+        <item name="android:colorBackground">#FFFEF9</item>
+        <item name="android:textColorPrimary">#253A33</item>
+        <item name="android:textColorSecondary">#59685B</item>
+    </style>
+</resources>

@@ -1,0 +1,112 @@
+// AGP 9.4.1 only. Assert unsigned app AND instrumentation before any task executes.
+// SigningConfigImpl is an API wrapper: hasConfig()==false means the underlying DSL
+// signingConfig is null. AGP 9.4.1 retains the wrapper even for unsigned variants.
+import org.gradle.api.GradleException
+
+def require = { boolean ok, String message ->
+    if (!ok) throw new GradleException("Unsigned APK guard: " + message)
+}
+require(gradle.gradleVersion == '9.8.0', 'review required for different Gradle version')
+require(gradle.startParameter.taskNames.toSet() == ['assembleDebug', 'assembleDebugAndroidTest', 'lintDebug', 'testDebugUnitTest', 'compileDebugAndroidTestJavaWithJavac'].toSet(),
+        'only the five reviewed compile/lint/test/assemble tasks are allowed')
+require(!gradle.startParameter.configurationCacheRequested, 'configuration cache must be disabled')
+
+def components = []
+def appProject = null
+def isClassOrSubclass = { value, String expectedName ->
+    for (Class type = value.getClass(); type != null; type = type.getSuperclass()) {
+        if (type.name == expectedName) return true
+    }
+    return false
+}
+def requireUnsigned = { component, boolean readProviders ->
+    def config = component.signingConfig
+    // AnalyticsEnabledApplicationVariant may return this exact read-only wrapper.
+    // Its public delegate getter exposes the underlying SigningConfigImpl; test
+    // components currently return that underlying object directly. Do not unwrap
+    // arbitrary objects or mutate either configuration.
+    if (config != null && isClassOrSubclass(config,
+            'com.android.build.api.component.analytics.AnalyticsEnabledSigningConfig')) {
+        config = config.getDelegate()
+        require(config != null, "${component.name} analytics signing delegate is missing")
+    }
+    if (config != null) {
+        require(isClassOrSubclass(config, 'com.android.build.api.variant.impl.SigningConfigImpl'),
+                "${component.name} effective signing implementation changed")
+        def methods = config.getClass().methods*.name.toSet()
+        require(['hasConfig', 'getName', 'getStoreFile'].every { it in methods },
+                "${component.name} effective signing API changed")
+    }
+    // These are direct implementation fields, safe to inspect in onVariants.
+    require(config == null || (config.hasConfig() == false && config.name == null),
+            "${component.name} has an effective signing configuration")
+    // AGP uses disallowUnsafeRead() for this provider. Query it only after project
+    // configuration, in taskGraph.whenReady, still before ANY task executes.
+    if (readProviders && config != null) {
+        require(!config.storeFile.isPresent(), "${component.name} has an effective signing configuration")
+    }
+}
+
+gradle.beforeProject { project ->
+    project.plugins.withId('com.android.application') {
+        require(appProject == null, 'exactly one Android application project is allowed')
+        appProject = project
+        require(project.findProperty('android.builder.sdkDownload')?.toString() == 'false',
+                'SDK downloads must be explicitly disabled')
+        require(project.findProperty('android.experimental.useDefaultDebugSigningConfigForProfileableBuildtypes')?.toString() == 'false',
+                'default debug-signing fallback must be explicitly disabled')
+        require(!project.properties.keySet().any { it.toString().startsWith('android.injected.signing.') },
+                'injected signing properties are forbidden')
+        def androidComponents = project.extensions.getByName('androidComponents')
+        def agp = androidComponents.pluginVersion
+        // AndroidPluginVersion.toString() is descriptive text, not a Maven version.
+        require(agp.major == 9 && agp.minor == 4 && agp.micro == 1 &&
+                agp.previewType == null && agp.preview == 0,
+                'review required for different AGP version')
+        androidComponents.finalizeDsl { android ->
+            require(android.defaultConfig.signingConfig == null, 'defaultConfig.signingConfig must be null')
+            require(android.buildTypes.every { it.signingConfig == null }, 'all buildType signingConfig values must be null')
+            require(android.productFlavors.every { it.signingConfig == null }, 'all productFlavor signingConfig values must be null')
+        }
+        androidComponents.onVariants(androidComponents.selector().withBuildType('debug')) { variant ->
+            require(variant.name == 'debug', 'only the debug application variant is allowed')
+            def test = variant.androidTest
+            require(test != null && test.name == 'debugAndroidTest', 'expected instrumentation component is missing')
+            requireUnsigned(variant, false)
+            requireUnsigned(test, false)
+            components.addAll([variant, test])
+        }
+    }
+}
+
+gradle.taskGraph.whenReady { graph ->
+    require(appProject != null && components*.name.toSet() == ['debug', 'debugAndroidTest'].toSet(),
+            'app and instrumentation signing configurations were not both checked')
+    components.each { requireUnsigned(it, true) }
+    def prohibited = graph.allTasks.findAll { task ->
+        task.name ==~ /(?i)(validateSigning.*|sign.*|.*keyStore.*|install.*|uninstall.*|connected.*|managedDevice.*|.*DeviceSetup.*|.*Release.*)/
+    }
+    require(prohibited.isEmpty(), 'signing, installation, device or release task in graph: ' + prohibited*.path.join(', '))
+    def packages = graph.allTasks.findAll { it.name in ['packageDebug', 'packageDebugAndroidTest'] }
+    require(packages*.name.toSet() == ['packageDebug', 'packageDebugAndroidTest'].toSet(), 'both packaging tasks are required')
+    require(packages.size() == 2 && packages.every {
+        isClassOrSubclass(it, 'com.android.build.gradle.tasks.PackageApplication')
+    }, 'packaging implementation changed')
+    require(!graph.allTasks.any {
+        isClassOrSubclass(it, 'com.android.build.gradle.tasks.PackageAndroidArtifact') && !(it in packages)
+    }, 'unreviewed APK packaging task in graph')
+    packages.each { task ->
+        require(task.signingKeystoreFile.files.isEmpty(), "${task.name} has a signing keystore input")
+        // Internal getter has a Kotlin module suffix. Missing/changed API fails closed.
+        def getters = task.getClass().methods.findAll {
+            it.name.startsWith('getSigningConfigData') && it.parameterCount == 0
+        }
+        require(getters.size() == 1, "${task.name} signing-data API changed")
+        def data = getters[0].invoke(task)
+        require(data == null || data.resolve() == null, "${task.name} has signing data")
+    }
+    def evidence = new File(appProject.buildDir, 'reports/unsigned-android-test-task-graph.txt')
+    evidence.parentFile.mkdirs()
+    evidence.text = graph.allTasks.collect { it.path }.join('\n') + '\n'
+    println('PASS: app/test effective signingConfig=null; no signing/keystore/install/device tasks; package signing data=null')
+}

@@ -1,0 +1,1483 @@
+{
+  "source_revision": "518b5b73bad55478850315d7c5db690bfd456baa",
+  "published_utc": "2026-10-13",
+  "scope": "Android source-only preview; not new APK release",
+  "files": [
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/build.gradle.kts",
+      "git_blob_sha1": "9ae8019b8c2581e853423f08eb82e04babd8d023",
+      "bytes": 9285,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/gradle.properties",
+      "git_blob_sha1": "344ead5cef7da31ebb80c3d996c5f4c44a2f0460",
+      "bytes": 73,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/build_unsigned_android_test.sh",
+      "git_blob_sha1": "07012b184eebc2427efc6ba9ac3f092fbd613c4e",
+      "bytes": 2288,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/capture_signal_strip_provenance.py",
+      "git_blob_sha1": "e552a568a3d1a4fdee27fd5c0c399f8d74235d50",
+      "bytes": 9603,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/check_probe_api26.py",
+      "git_blob_sha1": "b430ed28b77ed4c6d4bb7667c3c185e04a8ff630",
+      "bytes": 3157,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/check_signal_api26.sh",
+      "git_blob_sha1": "9b74dac25d57c487b53bebc2aeda07525a45d0b2",
+      "bytes": 1247,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/check_signal_logging_boundary.py",
+      "git_blob_sha1": "ae5396868b796c8b9a0a6eff6ed1cf67edc6ce49",
+      "bytes": 5977,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/check_signal_production_host.py",
+      "git_blob_sha1": "c6d46bb6ab343d3b0bc88af3337d3c9b5a350e54",
+      "bytes": 10309,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/contact-qr-artifacts.sha256",
+      "git_blob_sha1": "2cd962c088a2f0672e17f10af0286cd5eb739113",
+      "bytes": 146,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/debug_keystore_inventory.py",
+      "git_blob_sha1": "710d75158add4219e84f02ffb965cbb5676d624a",
+      "bytes": 1492,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/inspect_runtime_environment.py",
+      "git_blob_sha1": "174798bcd3a5b1daf50548bb761225c233c0cf81",
+      "bytes": 1868,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/json-test-artifacts.sha256",
+      "git_blob_sha1": "6f7f6f8a2c1c9b6c1d7ae1b7a410ec5de4e07e1a",
+      "bytes": 144,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/netty-artifacts.sha256",
+      "git_blob_sha1": "a9e71fd84664ad8619d582bf567c7cb8d02a1491",
+      "bytes": 1416,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/provenance/README.md",
+      "git_blob_sha1": "4cefed97bbaa6b22d3896cbf75758218b0bfdb20",
+      "bytes": 2131,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/provenance/signal-strip-0.105.0-ndk27.3.13750724.json",
+      "git_blob_sha1": "069dc816b7b18a0e34a6d4756d3ae184614c4dfb",
+      "bytes": 27612,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/provision_host_test_artifacts.sh",
+      "git_blob_sha1": "acc1b77d06537628efb953a8bf5f1ac8a5985ecb",
+      "bytes": 1868,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/signal-artifacts.sha256",
+      "git_blob_sha1": "f64cb45dbc3c1e8336c9dd63f553e9e3f6357ba9",
+      "bytes": 366,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_api_transport_standalone.sh",
+      "git_blob_sha1": "8d385617157a055b8f3f71c52bdd84f445e4a889",
+      "bytes": 2494,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_contact_qr_standalone.sh",
+      "git_blob_sha1": "a49c5065e34d7e425c2eda7418ca40d0599a3f06",
+      "bytes": 2198,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_device_recovery_coordinator.sh",
+      "git_blob_sha1": "5766fd9d10ca12cfb55dc18fcee55ed3bfc55806",
+      "bytes": 858,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_device_recovery_pilot.sh",
+      "git_blob_sha1": "e48f8e58f679084973dc3010d5e56c4b76c455d4",
+      "bytes": 1444,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_device_recovery_store_host.sh",
+      "git_blob_sha1": "43ce706dc67ff5bbc78525b752d2a30a79c7453a",
+      "bytes": 813,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_gate_standalone.sh",
+      "git_blob_sha1": "beb9db48c7598b3930447fa2d1090d099173c6d0",
+      "bytes": 1131,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_keystore_blob_store_host.sh",
+      "git_blob_sha1": "d84a46eb980392debca64f39cbdb6909a029056c",
+      "bytes": 826,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_message_coordinator_host.sh",
+      "git_blob_sha1": "ef13bf75a0c3e1c2dba7ef6cab93050b9c2635d3",
+      "bytes": 1374,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_native_response_rules.sh",
+      "git_blob_sha1": "89b490d58c31048f9f22f4356787b258e2cf728d",
+      "bytes": 1506,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_packaged_ui.cjs",
+      "git_blob_sha1": "7cb32bdd9384683dbec92f5696a0037bf965be7f",
+      "bytes": 16819,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_packaged_ui_logic.cjs",
+      "git_blob_sha1": "fddcd46757330a4f21980b55e17db3f4db36133f",
+      "bytes": 11285,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_peer_block_journal_host.sh",
+      "git_blob_sha1": "b1d7b01020bddf196259c16d11af4dfaa28a5917",
+      "bytes": 1034,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_probe_standalone.sh",
+      "git_blob_sha1": "31ce12cb6ce6ce14799e2230b5e82f968cfb5c7b",
+      "bytes": 2246,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_signal_logging_boundary.py",
+      "git_blob_sha1": "b50ad5a60733cab287e78b960468bd4957600057",
+      "bytes": 7827,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_signal_pilot.py",
+      "git_blob_sha1": "0ee6bdc9fcbd144af2878112d1a26e2def38ee41",
+      "bytes": 29803,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_signal_pilot.sh",
+      "git_blob_sha1": "37f03be87a1524337d901dba594401f0228170f9",
+      "bytes": 920,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_signal_production_host.py",
+      "git_blob_sha1": "6dd92a2ea18cf817c89664a061441c0869cc60dd",
+      "bytes": 7692,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_signal_standalone.sh",
+      "git_blob_sha1": "2d9c1ddcacf3182c796eaaa581802d3649969420",
+      "bytes": 941,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_signal_strip_provenance.py",
+      "git_blob_sha1": "d8403bfac48b8054f4055757abfa03da47916a9f",
+      "bytes": 4003,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_tor_controller_host.sh",
+      "git_blob_sha1": "eb71591cfc14c85ad1a04aaedd43cb69b8aac79d",
+      "bytes": 1828,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_tor_process_host.sh",
+      "git_blob_sha1": "5b7e3575db4d7000afb1a17fd8700241f968006f",
+      "bytes": 1872,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_tor_process_policy.sh",
+      "git_blob_sha1": "6154036f4aeac893fb4844d5179fcdb798d53086",
+      "bytes": 1113,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_ui_standalone.sh",
+      "git_blob_sha1": "5908d659eeb0d1f8a7e0cab82a87bddbace8d503",
+      "bytes": 1581,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/test_verify_embedded_tor.py",
+      "git_blob_sha1": "41cfc8bce638ba138009cae39a79aeeac34e8f1a",
+      "bytes": 77866,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/unsigned_android_test.init.gradle",
+      "git_blob_sha1": "b51e7c3a1b18fd23efd4a23c48d739a3fbd6caf4",
+      "bytes": 6990,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/verify_embedded_tor.py",
+      "git_blob_sha1": "530cf915a66d89b7a61208e7c68760e9f98bf8c5",
+      "bytes": 103959,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/scripts/verify_unsigned_android_test.py",
+      "git_blob_sha1": "dad237d172772fadaee6825597d660d33c9d71ea",
+      "bytes": 3912,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/settings.gradle.kts",
+      "git_blob_sha1": "422b709bca6d4ec78bef1587c2b651431888a21d",
+      "bytes": 486,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidArchiveRuntimeChecks.java",
+      "git_blob_sha1": "44fd7ae1a646cb33fb6d5709d2f6827fc8958398",
+      "bytes": 17342,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidBridgeRuntimeChecks.java",
+      "git_blob_sha1": "fea6084586c791b35924c52d99a0ed954903c319",
+      "bytes": 31575,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidQrRuntimeChecks.java",
+      "git_blob_sha1": "80a78913162130ca7f9586152c13cd67aebfcdb5",
+      "bytes": 4946,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidSignalRuntimeChecks.java",
+      "git_blob_sha1": "728993cc9c4b5a7320f784e4f189c959acfae5e0",
+      "bytes": 7237,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidStorageRuntimeChecks.java",
+      "git_blob_sha1": "6945833cdee1e0d34ecc30e3bbcf391851a39ea0",
+      "bytes": 5400,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidTorProcessRuntimeChecks.java",
+      "git_blob_sha1": "69eed466c9edaa34c99162b0124a13279cca4bc2",
+      "bytes": 4810,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/AndroidUnixSocketRuntimeChecks.java",
+      "git_blob_sha1": "bdf66fae05d4b877c2f315bc01ac4058b6a2cc42",
+      "bytes": 11191,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/androidTest/java/dev/gyeopdam/embeddedtor/TorTalkRuntimeInstrumentation.java",
+      "git_blob_sha1": "6e44fa43fd9c39e40a754793533ebe29be2ec0f8",
+      "bytes": 3666,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/AndroidManifest.xml",
+      "git_blob_sha1": "e301e0a35cb784c51075b0e50f8e97d950c21d15",
+      "bytes": 1357,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/guardianproject-tor-android-LICENSE.txt",
+      "git_blob_sha1": "2f850a63bc69770ec260a641db9e9beebafeaa73",
+      "bytes": 7331,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/libsignal-LICENSE.txt",
+      "git_blob_sha1": "be3f7b28e564e7dd05eaf59d64adba1a4065ac0e",
+      "bytes": 34523,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/libsignal-NOTICE.md",
+      "git_blob_sha1": "6d9e9180db87e32686811b7cc7a76172dca45c91",
+      "bytes": 558,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/netty-LICENSE.txt",
+      "git_blob_sha1": "62589edd12a37dd28b6b6fed1e2d728ac9f05c8d",
+      "bytes": 11360,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/netty-NOTICE.txt",
+      "git_blob_sha1": "971865b7c1c23ba891ae4c344a085b6e2ec98f50",
+      "bytes": 9039,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/ui/app.js",
+      "git_blob_sha1": "2fb1280a95fdb40efddc6369534f7dfefdcf29ef",
+      "bytes": 21871,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/ui/index.html",
+      "git_blob_sha1": "2703f44457fa0f521e71521b733a2770d526198c",
+      "bytes": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/ui/native.css",
+      "git_blob_sha1": "aa1970c54901230b4de9e64ee734709e572d8852",
+      "bytes": 1236,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/ui/styles.css",
+      "git_blob_sha1": "eaef1f398ad393c91683e0bb8e81eca4decd5451",
+      "bytes": 46912,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/assets/zxing-LICENSE.txt",
+      "git_blob_sha1": "510991edab065c65cbbad6a78355f230542348dc",
+      "bytes": 13320,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/AccountWorkQueue.java",
+      "git_blob_sha1": "6240a79f4c40cb088b05cf743eac26a28869e817",
+      "bytes": 917,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/AndroidTorSocket.java",
+      "git_blob_sha1": "fed2c99dcfdbd6311809646da1a19aa98ff27717",
+      "bytes": 4375,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/AppSessionStore.java",
+      "git_blob_sha1": "a2e79a45af36a9ab7ba044f6a7e1439c30d1d0c2",
+      "bytes": 5180,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/ContactCard.java",
+      "git_blob_sha1": "996bd25fb0df11924ab11638c77a202cdcd7845d",
+      "bytes": 5047,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/ContactQrCodec.java",
+      "git_blob_sha1": "30d6adad9ff765ed9ec1123462ea3dfd99e9966a",
+      "bytes": 4266,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/ContactQrImage.java",
+      "git_blob_sha1": "63afff070601863b4fbb55df647f661747066744",
+      "bytes": 4179,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/CoordinatorFailures.java",
+      "git_blob_sha1": "3cbab0aeee75ca5f70b575c3f7f8cda13f527440",
+      "bytes": 374,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/DeviceRecoveryCoordinator.java",
+      "git_blob_sha1": "75f5d6eae862e41169cb26830b1d6886919d9e3c",
+      "bytes": 11742,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/DiagnosticLog.java",
+      "git_blob_sha1": "76d5c36b262b9d6c4137384c96a09a12b02d7592",
+      "bytes": 4006,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/DraftLedger.java",
+      "git_blob_sha1": "f2c263d33ac4a80998a7756cf22085b6ab8b10e2",
+      "bytes": 1928,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/EmbeddedTorController.java",
+      "git_blob_sha1": "5e2da7ed61a49fecb90e7a5220218b7e8defd1af",
+      "bytes": 12959,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/EncryptedBlobEnvelope.java",
+      "git_blob_sha1": "fc204684f29d99f523c201b9645b572101f9858d",
+      "bytes": 5022,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/FixedOnionProbe.java",
+      "git_blob_sha1": "4f0bd48355953b9de7f1d6201b68d084cecb36f3",
+      "bytes": 17187,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/HistoryWindow.java",
+      "git_blob_sha1": "df5fcde015eec34a9c8bbbbf23ded6d941fedcb9",
+      "bytes": 2185,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/InvitationInput.java",
+      "git_blob_sha1": "6397a9fd2e89e6c850b95877c2b0b2ae52d0a4cd",
+      "bytes": 1770,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/JsonBounds.java",
+      "git_blob_sha1": "04e4bf95b1a5bd6f3b53ff003602a1f5595feca9",
+      "bytes": 3961,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/KeystoreBlobStore.java",
+      "git_blob_sha1": "6d06dae55774b6ebe034dfdca3a1834d19256f85",
+      "bytes": 14179,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/MessageCoordinator.java",
+      "git_blob_sha1": "61c47d532a928f05b63f32f0c795ad1f43dea9fc",
+      "bytes": 29971,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/NativeResponseRules.java",
+      "git_blob_sha1": "69b11128e2e66046cbf69e5de8f706b62fd5b00f",
+      "bytes": 3392,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/OnionApiRequest.java",
+      "git_blob_sha1": "5703dd9683257e3e093baab2469834dff97276bf",
+      "bytes": 3026,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/OnionApiTransport.java",
+      "git_blob_sha1": "25aadc636b115de93ab1caa02b85c0686d351049",
+      "bytes": 8121,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/OnionProbeSession.java",
+      "git_blob_sha1": "0520e3dd43a41fc365e88743eebf444ab4c99000",
+      "bytes": 5258,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PeerBlockCoordinator.java",
+      "git_blob_sha1": "3d9e922e84ffac55f26afad47fb8d55375cd7789",
+      "bytes": 17293,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PeerBlockJournal.java",
+      "git_blob_sha1": "41fc8d6ae665a4ab99aa48049eb2657acddd055c",
+      "bytes": 14149,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PeerBlockJournalSchema.java",
+      "git_blob_sha1": "3fa490d5aef7356cc6492012c3ae0d26309d2819",
+      "bytes": 8821,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PeerBlockState.java",
+      "git_blob_sha1": "f98bef6774523d827a58c68b078ad2ef61e93c9b",
+      "bytes": 3442,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PendingAccountSchema.java",
+      "git_blob_sha1": "b5a5058ee82f677eaa6817b0132ac00ca15b6639",
+      "bytes": 2916,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PendingAccountStore.java",
+      "git_blob_sha1": "cf5c6229abf4cccaf066d3a9824d5e1f1f225e0b",
+      "bytes": 5135,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PendingDeviceRecoverySchema.java",
+      "git_blob_sha1": "7a54123c6910d732513bcacb9d1ecd192e352be7",
+      "bytes": 2909,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/PendingDeviceRecoveryStore.java",
+      "git_blob_sha1": "4f5da81e1851f39a3327d8af9c68298578266c4f",
+      "bytes": 8415,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/ServerConfigStore.java",
+      "git_blob_sha1": "6d69062654f4f445216482fdec6361ff981f9680",
+      "bytes": 3555,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/SessionSchema.java",
+      "git_blob_sha1": "f09ccc0d249cb503252d971b9c121e8a43a45837",
+      "bytes": 5112,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/SignalClient.java",
+      "git_blob_sha1": "960b6f9ce0d030001e96a85260a81a5c2aff889a",
+      "bytes": 52416,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/SignalJson.java",
+      "git_blob_sha1": "dc22ce84f2b78ed0b45a6613133a1bd30273720e",
+      "bytes": 8785,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/SignalProfile.java",
+      "git_blob_sha1": "1de27682c10dd2fcb3788d3a788be6a66288f036",
+      "bytes": 1004,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorApiClient.java",
+      "git_blob_sha1": "f81094fdd68cf5354d9797822dc429be39a529ea",
+      "bytes": 6653,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorLifecyclePolicy.java",
+      "git_blob_sha1": "10c36de1c6c55f29724246ac0493c52c334e2f0f",
+      "bytes": 1056,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorProcessPolicy.java",
+      "git_blob_sha1": "62133d78030a23230da227f2eb72d079eaa29038",
+      "bytes": 4315,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorProcessProtocol.java",
+      "git_blob_sha1": "3a328a9b3aead61356842560396346635a7317a5",
+      "bytes": 5526,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorProcessService.java",
+      "git_blob_sha1": "89d3a37ac78328fb855202cbb300c5bbdb230c00",
+      "bytes": 17451,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorReadinessGate.java",
+      "git_blob_sha1": "d5ef5ef84bb55f48b3d4420a449ec57f5bbc9f91",
+      "bytes": 4702,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorSocketChannel.java",
+      "git_blob_sha1": "b2fd2a2fb7168b761a137e16868589c64a2bbe84",
+      "bytes": 8463,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorSocketEndpoint.java",
+      "git_blob_sha1": "ac1cf77f96c9541b551cf68ee92c03730c813b17",
+      "bytes": 1552,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorSocketEventLoopGroup.java",
+      "git_blob_sha1": "f4b4573cbb384e65220783e9d00b3e5c0a73ee37",
+      "bytes": 999,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorSocketIo.java",
+      "git_blob_sha1": "7846bfa9f6b8909f38f281f85be9be559b3814fe",
+      "bytes": 993,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorSocketPaths.java",
+      "git_blob_sha1": "854f399c7e614a37919e15d09499dcd14c8ba1ba",
+      "bytes": 4217,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorTalkActivity.java",
+      "git_blob_sha1": "390903693c4a3d323b3f1d55713da2bf5bde7117",
+      "bytes": 95210,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorTalkInsets.java",
+      "git_blob_sha1": "7686ad8c8042c2625c00ad65c4c85b6af7eb165a",
+      "bytes": 752,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorTalkInsetsApi30.java",
+      "git_blob_sha1": "ded9a5bc45a8935e81dd54ab6ccf35247e90664b",
+      "bytes": 1880,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorTalkState.java",
+      "git_blob_sha1": "8d2f97b418d468daf4e457d971f7d8a0a624fbd8",
+      "bytes": 1715,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/TorTestActivity.java",
+      "git_blob_sha1": "6bfb5fef08204d9024670442179494c96e26a007",
+      "bytes": 10240,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/java/dev/gyeopdam/embeddedtor/UiCommandPolicy.java",
+      "git_blob_sha1": "e9a1bfeac4e451744689e7779bf2648baee813a8",
+      "bytes": 1024,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/res/drawable/ic_tortalk.xml",
+      "git_blob_sha1": "29990b308bab258f10f31babb09f01d2ecf68d71",
+      "bytes": 428,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/res/values/strings.xml",
+      "git_blob_sha1": "d1103f5362bb6b91233dee0e7b183e29f0df0d7a",
+      "bytes": 12307,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/res/values/styles.xml",
+      "git_blob_sha1": "1c1f7c17e06f588ee34d6918615ec23a69bf6f1a",
+      "bytes": 982,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/main/res/xml/backup_exclusions.xml",
+      "git_blob_sha1": "061447a18848bea2bee8b3f1410ede175c88fd59",
+      "bytes": 591,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/AccountWorkQueueTest.java",
+      "git_blob_sha1": "fd3e49f7ae034d7c0a592bb5d220335fac311a68",
+      "bytes": 2723,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/ContactCardTest.java",
+      "git_blob_sha1": "0a81d1b862651d1ed6dd45788c3649932fc3d1d2",
+      "bytes": 7762,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/ContactQrCodecTest.java",
+      "git_blob_sha1": "e509cc648084386b9dc11076394c3447b4f5e796",
+      "bytes": 6671,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/CoordinatorFailuresTest.java",
+      "git_blob_sha1": "df28b3164f204695a25f8a218481e4069e91a693",
+      "bytes": 1395,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/DeviceRecoveryCoordinatorTest.java",
+      "git_blob_sha1": "7a211c5e7539317835822b538cc2803b71effa25",
+      "bytes": 12609,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/DiagnosticLogTest.java",
+      "git_blob_sha1": "2a3b225dcc1e3390d9014574ed738f6d9660e7dc",
+      "bytes": 11919,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/DraftLedgerTest.java",
+      "git_blob_sha1": "0d74b4c8e5d7ed7f4b17bc1c041d4e82c2f5d9b6",
+      "bytes": 1938,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/EncryptedBlobEnvelopeTest.java",
+      "git_blob_sha1": "72b59cc5870d4df7c33e707d3c21b2949840d7cb",
+      "bytes": 7272,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/FixedOnionProbeTest.java",
+      "git_blob_sha1": "6a622b58ac9d77d9d258d955e662b9aed122ac86",
+      "bytes": 20175,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/HistoryWindowTest.java",
+      "git_blob_sha1": "a36e00c1ed9f7ffcff114f67dc0307a6e8ba70fa",
+      "bytes": 2426,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/HostTorSockets.java",
+      "git_blob_sha1": "131485ef7ff91925a5b0a6d54f5db93f12d1cada",
+      "bytes": 2626,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/InvitationInputTest.java",
+      "git_blob_sha1": "1d6dd2f6102ffc1773a1192a31c9d8d4486d9a29",
+      "bytes": 1326,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/JsonBoundsTest.java",
+      "git_blob_sha1": "7bae088bb80c338b3fe7d0f4d8d75c31499a8581",
+      "bytes": 7816,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/NativeResponseRulesTest.java",
+      "git_blob_sha1": "24b5ddc91396372634ec57de66e6d93ee3895ac6",
+      "bytes": 3517,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/OnionApiRequestTest.java",
+      "git_blob_sha1": "74b3d1d34ab8dd69f367a0bf5fcf2e2f9892eae4",
+      "bytes": 7576,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/OnionApiTransportTest.java",
+      "git_blob_sha1": "32a0f53ed158f971dc79fae9cae57fcff0697674",
+      "bytes": 23326,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/OnionProbeSessionTest.java",
+      "git_blob_sha1": "89b0138339332f1282c9d48b21595b73e0c425dd",
+      "bytes": 9009,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/PeerBlockCoordinatorTest.java",
+      "git_blob_sha1": "951fcc823afd0f8d3a939c40c763f3144c08eb97",
+      "bytes": 11742,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/PeerBlockStateTest.java",
+      "git_blob_sha1": "e510e8f58c6dea7d5675d348444ac68b23d3a839",
+      "bytes": 3890,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/PendingAccountSchemaTest.java",
+      "git_blob_sha1": "663a7a906bd883b6281463c7d1ed242cba9e99eb",
+      "bytes": 6330,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/ServerConfigStoreTest.java",
+      "git_blob_sha1": "208f70ff270f8b574843c62744cc19f36ce6cc5a",
+      "bytes": 2195,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/SessionSchemaTest.java",
+      "git_blob_sha1": "7f64ef16645a549d896b8f891b5d49aa096f7f00",
+      "bytes": 9931,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/SignalClientTest.java",
+      "git_blob_sha1": "04b9feb71354d5a29732362843ecbad3b709d27e",
+      "bytes": 36453,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/SignalPilotPeer.java",
+      "git_blob_sha1": "b24e849a3ea2f8fcae56059659695cb5738de45a",
+      "bytes": 7201,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/SignalProfileTest.java",
+      "git_blob_sha1": "bd2f3500a7dc0afe5dad04a36044192ff9071302",
+      "bytes": 3142,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorLifecyclePolicyTest.java",
+      "git_blob_sha1": "b33ea7c02fcf234c24602e938bb52965857ad164",
+      "bytes": 4629,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorProcessPolicyTest.java",
+      "git_blob_sha1": "70887f85241064bc4421a140a9c993ced38985d5",
+      "bytes": 6134,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorReadinessGateTest.java",
+      "git_blob_sha1": "7936bc012d060a7ffcfbb4f0674e469fc35aaa87",
+      "bytes": 7126,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorSocketAbortSubmissionTest.java",
+      "git_blob_sha1": "d3a0693501e571ae0bec09dda09fac97315f9fab",
+      "bytes": 16159,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorSocketChannelTest.java",
+      "git_blob_sha1": "85843e8eb06271785299b820952cc6a6f881db27",
+      "bytes": 7650,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorSocketShutdownRaceTest.java",
+      "git_blob_sha1": "3de94a9500db5b6651aac9d69ae606500b47458c",
+      "bytes": 9155,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/TorTalkStateTest.java",
+      "git_blob_sha1": "88ec758f2a62661a67cf6c18e6e0506610b277cb",
+      "bytes": 2192,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/dev/gyeopdam/embeddedtor/UiCommandPolicyTest.java",
+      "git_blob_sha1": "0cf28e1461ad5e9c9eb0682c05d8025285959c8f",
+      "bytes": 1002,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/src/test/java/io/netty/channel/PausedDeregisterOioGroup.java",
+      "git_blob_sha1": "bda58d98c4f1c7411d19edf32946e0df65143c48",
+      "bytes": 3553,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/BLOCKING_UI.md",
+      "git_blob_sha1": "158f3b617b269846905649aa39952929c9ec274c",
+      "bytes": 4364,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/CONTACT_QR.md",
+      "git_blob_sha1": "ec98034671774bfaf22ad13a0fcf37b987e5d89c",
+      "bytes": 9100,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/CORE_FEATURE_QA.md",
+      "git_blob_sha1": "64d37cd5aa887358b393b83894dc3dadda088ae5",
+      "bytes": 5984,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/DEVICE_RECOVERY.md",
+      "git_blob_sha1": "2b29e1ac387a2033c340d339d999d02a189d4ea0",
+      "bytes": 4597,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/README.md",
+      "git_blob_sha1": "f5036426704595b65d565a1ff790974a3ac397aa",
+      "bytes": 22002,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/SIGNAL_CLIENT.md",
+      "git_blob_sha1": "72d92451924b7897ec184a8d02a6b1a5649a7f7a",
+      "bytes": 19599,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/UNIX_SOCKET_BOUNDARY.md",
+      "git_blob_sha1": "76fa3fdc44d99b242a7ab45dca9ffe672c4b860f",
+      "bytes": 12283,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/docs/native-tor-process-boundary.md",
+      "git_blob_sha1": "6f3cc9e2e2928e8c3218a72e0636de8889c16c78",
+      "bytes": 5958,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/docs/signal-logging-boundary.md",
+      "git_blob_sha1": "bc1e3b72886d356450e12660576a43a1b9f06a91",
+      "bytes": 4905,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/docs/signal-production-host.md",
+      "git_blob_sha1": "ea7c3c99fc7a7df324e26dbb3d713e56510fbb7d",
+      "bytes": 7895,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/README.md",
+      "git_blob_sha1": "9b869e0a88b08d98718da6b451f238084c5b9df7",
+      "bytes": 7040,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/src/android/os/Handler.java",
+      "git_blob_sha1": "10f8c1d33126e24e97e9b8555f90740f4c90ed19",
+      "bytes": 367,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/src/android/os/Looper.java",
+      "git_blob_sha1": "7009cbac78ad1da53dd79229201559a7f214f0ef",
+      "bytes": 1272,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/src/dev/gyeopdam/embeddedtor/ApiFacadeHostStress.java",
+      "git_blob_sha1": "0b8b421e908709976d5b16b88aa8ef08a024d574",
+      "bytes": 1629,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/src/dev/gyeopdam/embeddedtor/ApiFacadeHostTest.java",
+      "git_blob_sha1": "53caef38bd52d481ee127b63e7a7ff4dcfbc0d7f",
+      "bytes": 34138,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/src/dev/gyeopdam/embeddedtor/EmbeddedTorController.java",
+      "git_blob_sha1": "189dba7b454b28f09769dcc8dc2a8915b568aa31",
+      "bytes": 1883,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api-facade-host/test_api_facade_host.sh",
+      "git_blob_sha1": "d5d3ab966193cd8fa096085b0e488a137f99d8df",
+      "bytes": 2172,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api26-insets-fixture/README.md",
+      "git_blob_sha1": "8e5992e1d7a7e4798aa97906724d8fef5d323ffb",
+      "bytes": 720,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/api26-insets-fixture/dev/gyeopdam/embeddedtor/TorTalkInsetsApi30.java",
+      "git_blob_sha1": "bb3d03d730a34ea80d97d162a8555d4548a32ff6",
+      "bytes": 252,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/block-journal-host/README.md",
+      "git_blob_sha1": "6bd161e916f4ca082fed7d628455db3acb7293aa",
+      "bytes": 6823,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/block-journal-host/src/dev/gyeopdam/embeddedtor/PeerBlockJournalHostReview.java",
+      "git_blob_sha1": "7a6c3867d6bc70f7759e384d5dadbcdf0d64187b",
+      "bytes": 41220,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/block-journal-host/src/dev/gyeopdam/embeddedtor/PeerBlockJournalSchemaReview.java",
+      "git_blob_sha1": "608ce108a005f3f0398d53a7f7f789969353b357",
+      "bytes": 17140,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/README.md",
+      "git_blob_sha1": "9b00ebb015069fa0d737b6d62b6ab79044292896",
+      "bytes": 1929,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/annotation/SuppressLint.java",
+      "git_blob_sha1": "b225983756e87e76b16a6608a4a5055fd201abc5",
+      "bytes": 507,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/content/ComponentName.java",
+      "git_blob_sha1": "e17c5c6d446482fbb2669cf9703432d2a12e30ca",
+      "bytes": 372,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/content/Context.java",
+      "git_blob_sha1": "09b5c5dd70445500c2144d3d6e0037f97589e4d8",
+      "bytes": 2089,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/content/Intent.java",
+      "git_blob_sha1": "00c03abf1924d34fcd93a8b7f5523dbd1059d70a",
+      "bytes": 225,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/content/ServiceConnection.java",
+      "git_blob_sha1": "b61606928846bb9200fe027b9c08c5592fc45f9a",
+      "bytes": 319,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Binder.java",
+      "git_blob_sha1": "74cedc8edab561ff9771d04a764f9aa1a7a858ed",
+      "bytes": 989,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Bundle.java",
+      "git_blob_sha1": "26343f013f047bcec5c8e69d0b8a66685c463547",
+      "bytes": 570,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Handler.java",
+      "git_blob_sha1": "82fd7813b1f9fd0a32925afa2817a0c5ea304c9d",
+      "bytes": 2261,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/IBinder.java",
+      "git_blob_sha1": "7097cb5d655bcd9858253f16bbe53fcd4783b84d",
+      "bytes": 313,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Looper.java",
+      "git_blob_sha1": "ce2f49ff3b9a829a74d17cc0b4e0c8332c3e6bd7",
+      "bytes": 410,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Message.java",
+      "git_blob_sha1": "c30ac1ab2244ccebbc81e31ff8c6bf596d23131e",
+      "bytes": 364,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Messenger.java",
+      "git_blob_sha1": "ea1c626dbad8b9e30bcc87356b21134b29086df0",
+      "bytes": 373,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/Process.java",
+      "git_blob_sha1": "de58156f1bc270e8fae50d3400feda32de93209d",
+      "bytes": 282,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/RemoteException.java",
+      "git_blob_sha1": "7803f83e804ae9e263de314b88219375e6c86222",
+      "bytes": 130,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/android/os/SystemClock.java",
+      "git_blob_sha1": "935b730fae110bb088132600114de8810b4e6d95",
+      "bytes": 441,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/dev/gyeopdam/embeddedtor/ControllerReview.java",
+      "git_blob_sha1": "e824970f13d90cd3eb4da273558b56cfd8ffa216",
+      "bytes": 21557,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/dev/gyeopdam/embeddedtor/FixedOnionProbe.java",
+      "git_blob_sha1": "cb23af41094c735e147ef9c5832e4942fbff1038",
+      "bytes": 925,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/dev/gyeopdam/embeddedtor/TorProcessService.java",
+      "git_blob_sha1": "cf9adf3ece23652a68acf6ffe127b42a82f48d76",
+      "bytes": 169,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/controller-host/src/dev/gyeopdam/embeddedtor/TorSocketPaths.java",
+      "git_blob_sha1": "913a0b19349b1eb12fb8a65a3a31f5d13e6fc2b6",
+      "bytes": 1486,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/README.md",
+      "git_blob_sha1": "81e532f61ff27016492deb73ae2406cffa1a0a49",
+      "bytes": 6262,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/src/android/content/Context.java",
+      "git_blob_sha1": "cef66b31f36dfa58adb16a38683b683826abfc9a",
+      "bytes": 124,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/src/android/os/Handler.java",
+      "git_blob_sha1": "53eab2e4ca2306df56dc1023b7ef7a2750b0f77a",
+      "bytes": 484,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/src/android/os/Looper.java",
+      "git_blob_sha1": "ce082662bf191631233418d085a43aa828a97d03",
+      "bytes": 346,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/src/dev/gyeopdam/embeddedtor/CoordinatorReview.java",
+      "git_blob_sha1": "c9b133d298185b66ca51364594723fc5c940ee31",
+      "bytes": 57144,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/src/dev/gyeopdam/embeddedtor/KeystoreBlobStore.java",
+      "git_blob_sha1": "5ad52ae1d8d587f536955bc4990995c2d3069647",
+      "bytes": 1493,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/coordinator-host/src/dev/gyeopdam/embeddedtor/TorApiClient.java",
+      "git_blob_sha1": "8b17840999801fee062c861b2d764964df741045",
+      "bytes": 1356,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/device-recovery-host/src/dev/gyeopdam/embeddedtor/PendingDeviceRecoveryHostReview.java",
+      "git_blob_sha1": "114903d6cbe794bb82b300213d5401b6e80e7b62",
+      "bytes": 15114,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/device-recovery-pilot/src/dev/gyeopdam/embeddedtor/DeviceRecoveryPilotHost.java",
+      "git_blob_sha1": "be5b40e48ec6a9768046f30b554d24a351140f7a",
+      "bytes": 21053,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/process-security-review/README.md",
+      "git_blob_sha1": "9ab1d65e1972b022b7846009c493135acb3be86e",
+      "bytes": 4937,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/process-security-review/run-controller.sh",
+      "git_blob_sha1": "536f4528fe5db1f4ee261a6e3cbabff8a34da8b4",
+      "bytes": 1074,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/process-security-review/run-remote.sh",
+      "git_blob_sha1": "a548ebddf2381847b8efca389b4dab9bc50c89d4",
+      "bytes": 1039,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/process-security-review/src/dev/gyeopdam/embeddedtor/ControllerSecurityReview.java",
+      "git_blob_sha1": "2b661912718e0b6d352a87a2deb669afb068a413",
+      "bytes": 6120,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/process-security-review/src/dev/gyeopdam/embeddedtor/RemoteSecurityReview.java",
+      "git_blob_sha1": "bedf9428e4351d753e7dbcf6abea5ced6bb251ff",
+      "bytes": 5063,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/signal-production-host/ProductionOnlyLoader.java",
+      "git_blob_sha1": "720c9a2d35f982a7a7fb902cf68ded7c9b25a562",
+      "bytes": 7975,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/signal-production-host/ProductionPrivacyHost.java",
+      "git_blob_sha1": "aef852f722dac5f740b7754cb74ad598456096d9",
+      "bytes": 4614,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/README.md",
+      "git_blob_sha1": "7634837a32dbfcd40ae4b7330e3881105e95f554",
+      "bytes": 3603,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/content/Context.java",
+      "git_blob_sha1": "b4156f675414a1c08fd0f23b766dda665a26e949",
+      "bytes": 318,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/security/keystore/KeyGenParameterSpec.java",
+      "git_blob_sha1": "87117f87ab72f0f43d962fcd450b42b9f1c7ea53",
+      "bytes": 1501,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/security/keystore/KeyProperties.java",
+      "git_blob_sha1": "42801ef51be04b879f24136f5bff6d59669eeb6e",
+      "bytes": 460,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/system/ErrnoException.java",
+      "git_blob_sha1": "e461047ba5e55bb330c1b3d9ae06324e7f776e6a",
+      "bytes": 342,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/system/Os.java",
+      "git_blob_sha1": "1df40bb9355171375eee3f3a1d5717a37b660678",
+      "bytes": 3034,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/system/OsConstants.java",
+      "git_blob_sha1": "6892f1d11a2e7f3cf62cc4a6a3d920e043dd1f5c",
+      "bytes": 495,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/system/StructStat.java",
+      "git_blob_sha1": "af6391b43af1c676194244b78c79d13a7edbe1df",
+      "bytes": 218,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/android/util/AtomicFile.java",
+      "git_blob_sha1": "a98c8ada82292c8f568bf6703cefaaf6cb2e8166",
+      "bytes": 3122,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/dev/gyeopdam/embeddedtor/StorageHostReview.java",
+      "git_blob_sha1": "cd4de260fc59988a62bf466137081870a2854413",
+      "bytes": 19594,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/storage-host/src/dev/gyeopdam/embeddedtor/host/FakeAndroidKeyStoreProvider.java",
+      "git_blob_sha1": "0069abbb61d0e0144b262aaf1b7aa6b6c40c06a6",
+      "bytes": 5454,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/README.md",
+      "git_blob_sha1": "1265a47945652c8072db5706b31870337f460ea6",
+      "bytes": 3231,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/app/ActivityManager.java",
+      "git_blob_sha1": "36d4e30d762b38e98229635f30d2728251400dd8",
+      "bytes": 724,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/app/Service.java",
+      "git_blob_sha1": "b9a5397c81fff1f4a2e50333664d083ea08f0dc7",
+      "bytes": 787,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/content/Context.java",
+      "git_blob_sha1": "52d6aaa96821b88e57aaa08930bbea4513a105cb",
+      "bytes": 627,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/content/Intent.java",
+      "git_blob_sha1": "a7cd8446808b803653b180c123b58e8756119b24",
+      "bytes": 55,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/content/pm/ApplicationInfo.java",
+      "git_blob_sha1": "a1b2f1aa260910219c93fe957cb0db69a626b0da",
+      "bytes": 83,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Binder.java",
+      "git_blob_sha1": "ae0ec4c2e14758b3d49050ad62139940cccf5462",
+      "bytes": 675,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Bundle.java",
+      "git_blob_sha1": "7c1bd8266c4cb81e744bd45b575b0c8b54bd391e",
+      "bytes": 660,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Handler.java",
+      "git_blob_sha1": "50ed07b0860e33aa5e106ad1483d30f9aa879b26",
+      "bytes": 538,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/HandlerThread.java",
+      "git_blob_sha1": "f49a1a2018da01c1b7b7a5da2f4e7b76b3ca0d42",
+      "bytes": 253,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/IBinder.java",
+      "git_blob_sha1": "cdc05464334f6feffea415010cca06c2da8c9e19",
+      "bytes": 276,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Looper.java",
+      "git_blob_sha1": "0483f7cc2c587081323a5584c21b8e97d0665711",
+      "bytes": 714,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Message.java",
+      "git_blob_sha1": "3e6cd78b26374a38c49f5990e998eebd0e30ff94",
+      "bytes": 426,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Messenger.java",
+      "git_blob_sha1": "d1d647ebb00a78faab69685ab6cc87ff00049931",
+      "bytes": 1522,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/Process.java",
+      "git_blob_sha1": "0c7b6211a082c85e53c2302f8ad0caa6dfb31b4f",
+      "bytes": 571,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/RemoteException.java",
+      "git_blob_sha1": "6db50dcbcfa2475d065c6c7220f96b235f6cac9d",
+      "bytes": 127,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/android/os/SystemClock.java",
+      "git_blob_sha1": "afdcc60055167cbeef9ceb76428c071aa83e3b1d",
+      "bytes": 213,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/dev/gyeopdam/embeddedtor/TorProcessReview.java",
+      "git_blob_sha1": "cc1998e1f8ee660280d823fdd80be083d92eff09",
+      "bytes": 21955,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/dev/gyeopdam/embeddedtor/TorSocketPaths.java",
+      "git_blob_sha1": "dafbf833c2eae151beba16815d8d932c4c0923be",
+      "bytes": 1923,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/net/freehaven/tor/control/ConfigEntry.java",
+      "git_blob_sha1": "41af644b8bb622d0bfae9e96944d1d2f876d581c",
+      "bytes": 278,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/net/freehaven/tor/control/TorControlConnection.java",
+      "git_blob_sha1": "83d803aa2091fe066de69be4953b6327b730186e",
+      "bytes": 4314,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/integration/tor-process-host/src/org/torproject/jni/TorService.java",
+      "git_blob_sha1": "f266e7d8c68dda732595d1863a297b5dc50d863f",
+      "bytes": 2094,
+      "mode": "100644"
+    },
+    {
+      "path": "source/518b5b7/frontend/embedded-tor/qa/README.md",
+      "git_blob_sha1": "c4f2d7b25d36f05f0c37ad0da0e0331f51a4bfe0",
+      "bytes": 11917,
+      "mode": "100644"
+    }
+  ]
+}

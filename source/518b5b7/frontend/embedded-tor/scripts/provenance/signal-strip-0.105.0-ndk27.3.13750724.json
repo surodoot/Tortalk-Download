@@ -1,0 +1,893 @@
+{
+  "abis": {
+    "arm64-v8a": {
+      "allocated_sections": {
+        ".bss": {
+          "address": 9328176,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 7328,
+          "type": 8
+        },
+        ".data": {
+          "address": 9315176,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "17eb20a9f252b18038ba63c06dcee8b2cdee5de02f18de81b8ed732da374195b",
+          "size": 12992,
+          "type": 1
+        },
+        ".data.rel.ro": {
+          "address": 9017088,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "6503afc74b1adcc57cda45d6bf8a82b4dba06a584108f3e00b63e05017917b70",
+          "size": 280056,
+          "type": 1
+        },
+        ".dynamic": {
+          "address": 9297176,
+          "alignment": 8,
+          "entry_size": 16,
+          "flags": 3,
+          "sha256": "a212257d0a1f807e0cd3383561681110b3a672fca588152af42bcdeae6ad88de",
+          "size": 416,
+          "type": 6
+        },
+        ".dynstr": {
+          "address": 25704,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "1e7bcc5c496f726c117defd5be371f414ac989d2c508109c37d44c53ed98e0ba",
+          "size": 53591,
+          "type": 3
+        },
+        ".dynsym": {
+          "address": 800,
+          "alignment": 8,
+          "entry_size": 24,
+          "flags": 2,
+          "sha256": "63b493cb54ab6c434bbfefc4cc87629dab1eb68e40e4a78ea90b6a2a265ffa20",
+          "size": 18912,
+          "type": 11
+        },
+        ".eh_frame": {
+          "address": 1272864,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "7fb47b137697d9f43ce145054fd4189c2f3b5d4382ae926ee1b2e0995d456fac",
+          "size": 801844,
+          "type": 1
+        },
+        ".eh_frame_hdr": {
+          "address": 1156048,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "09eb7c7aef03edb16f9024099016d3649ada89d7c4a5d4b5f856ba936e0925ee",
+          "size": 116812,
+          "type": 1
+        },
+        ".fini_array": {
+          "address": 9297144,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+          "size": 16,
+          "type": 15
+        },
+        ".gcc_except_table": {
+          "address": 135280,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "0eedd503637d5d42340630177be11916e0cc46921c6685b38d9862fb3fc9a218",
+          "size": 469652,
+          "type": 1
+        },
+        ".gnu.hash": {
+          "address": 21384,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "01a063e595750e39994ebeb90f5815a59a2b25d4cca9ddc6f611af9932fdfa88",
+          "size": 4320,
+          "type": 1879048182
+        },
+        ".gnu.version": {
+          "address": 19712,
+          "alignment": 2,
+          "entry_size": 2,
+          "flags": 2,
+          "sha256": "857af09d1bdcb44bd8778b0b4ae3afdd394a54d7378c289866da33dbf0650579",
+          "size": 1576,
+          "type": 1879048191
+        },
+        ".gnu.version_r": {
+          "address": 21288,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "42e3aedaef5fee5504be8e3600baac3a185427afc1cc4a10bdf770a56844fdff",
+          "size": 96,
+          "type": 1879048190
+        },
+        ".got": {
+          "address": 9297592,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33",
+          "size": 136,
+          "type": 1
+        },
+        ".got.plt": {
+          "address": 9297728,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "9e22e4d7affaff25ef1a533de1ee090254f459f73e23f4a8b6ff32b5c4c1080c",
+          "size": 1064,
+          "type": 1
+        },
+        ".init_array": {
+          "address": 9297160,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+          "size": 16,
+          "type": 14
+        },
+        ".note.android.ident": {
+          "address": 624,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "a12ff204649756c402e6b675237ec835e69e498959f2d449a94bb09e5b88ccc0",
+          "size": 152,
+          "type": 7
+        },
+        ".note.gnu.build-id": {
+          "address": 776,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "b6b4439362cdb95afdf36a635b1bf9bb8c0c1d36523c67d2dcbf5fb754c1cf23",
+          "size": 24,
+          "type": 7
+        },
+        ".plt": {
+          "address": 8998592,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "506ac4b51f67b5d2c814d2c0f27dec0360846d316d881c70e97a957114c656d2",
+          "size": 2112,
+          "type": 1
+        },
+        ".rela.dyn": {
+          "address": 79296,
+          "alignment": 8,
+          "entry_size": 1,
+          "flags": 2,
+          "sha256": "55d3f76a033e4a43d195b7b250aa6ee72c43dff06d8ef0546c3b84ca59f392c8",
+          "size": 52864,
+          "type": 1610612738
+        },
+        ".rela.plt": {
+          "address": 132160,
+          "alignment": 8,
+          "entry_size": 24,
+          "flags": 66,
+          "sha256": "7fdb1ab17425169eecafc07b9170eb0069b6acf8861c3b31830c3be820559c30",
+          "size": 3120,
+          "type": 4
+        },
+        ".relro_padding": {
+          "address": 9298792,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 3224,
+          "type": 8
+        },
+        ".rodata": {
+          "address": 605056,
+          "alignment": 128,
+          "entry_size": 0,
+          "flags": 2097202,
+          "sha256": "916a719f54991db2c2c5d703957056d08f877bd34d823823ab974a3fa0b47541",
+          "size": 550990,
+          "type": 1
+        },
+        ".text": {
+          "address": 2091136,
+          "alignment": 64,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "bbf15c6adae545e0b0b590c4140c17b5f745150713da13814c70ad753171b3c7",
+          "size": 6907448,
+          "type": 1
+        }
+      },
+      "allocated_sections_unchanged": true,
+      "program_headers_sha256": "ca786ab434708156595528f08569ed169d88429184ac2c7c4564a1e88b5842dd",
+      "program_headers_unchanged": true,
+      "repeat_identical": true,
+      "source_bytes": 121930224,
+      "source_sha256": "bd935a398d69ddd988c2ae58e003b17f7719df1d8cc345f38847f2862f6ba9f3",
+      "stripped_bytes": 9281456,
+      "stripped_sha256": "aae5991d40b4c583271afe37ac1f58c7a5492544bf5bbfdfb1921c678d8dfc81"
+    },
+    "armeabi-v7a": {
+      "allocated_sections": {
+        ".ARM.exidx": {
+          "address": 87784,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 130,
+          "sha256": "f70d29eaff7cc0f4123dbb58bdff49fbafdd8c5d2345dfd3c7f57d52680e58d1",
+          "size": 108800,
+          "type": 1879048193
+        },
+        ".ARM.extab": {
+          "address": 197608,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "79e8860a71aee090aa1298b44f80b433cbbd6625cfe97cfc608636cba8c8b0d8",
+          "size": 527684,
+          "type": 1
+        },
+        ".bss": {
+          "address": 6904400,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 3976,
+          "type": 8
+        },
+        ".data": {
+          "address": 6894160,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "30de52f11b33d0cd661e5603a381c2b953a7c3df2bf5a4bc6b15db0c206f1467",
+          "size": 10232,
+          "type": 1
+        },
+        ".data.rel.ro": {
+          "address": 6717600,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "226d0e3fc6f9de9ce64bad0de9369828d811cf4d0c9fb818d468410f05f17866",
+          "size": 171652,
+          "type": 1
+        },
+        ".dynamic": {
+          "address": 6889260,
+          "alignment": 4,
+          "entry_size": 8,
+          "flags": 3,
+          "sha256": "9f7e8f72e5d09a94e704e6cfe4d32ccad699be8807b5fa89da0b3b32a1451560",
+          "size": 192,
+          "type": 6
+        },
+        ".dynstr": {
+          "address": 19132,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "86ff25cc6c3bcaef92a10784b8cd448f4088f00af1d12bfd881661aabbb12eb4",
+          "size": 53590,
+          "type": 3
+        },
+        ".dynsym": {
+          "address": 548,
+          "alignment": 4,
+          "entry_size": 16,
+          "flags": 2,
+          "sha256": "311dee77515d78546ae7e94e6b36fc992161cda6c20f9757a592b0dcdf28f5b4",
+          "size": 12592,
+          "type": 11
+        },
+        ".fini_array": {
+          "address": 6889252,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "7a13a5a389a45d2040f52e74729cfafacc8f0193022caff8ac039abce0771930",
+          "size": 8,
+          "type": 15
+        },
+        ".gnu.hash": {
+          "address": 14812,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "dd5df33be61b5c6c1cf7ce81124bcd4d7ce30847c7445beea92465e4cf2f9471",
+          "size": 4320,
+          "type": 1879048182
+        },
+        ".gnu.version": {
+          "address": 13140,
+          "alignment": 2,
+          "entry_size": 2,
+          "flags": 2,
+          "sha256": "fb74944bb2ecf0864d3852fe3ffb4ef151681665975621493b34f0ff87b4e700",
+          "size": 1574,
+          "type": 1879048191
+        },
+        ".gnu.version_r": {
+          "address": 14716,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "5dd06ee57a90e2a57ca39a6515e01cbabae16095309d5aca15a1cd157c7ad987",
+          "size": 96,
+          "type": 1879048190
+        },
+        ".got": {
+          "address": 6889452,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "82d61f43121d8fa1351b01d6c4b832363177fef24e4a7c92852c83a2aaf2333a",
+          "size": 84,
+          "type": 1
+        },
+        ".got.plt": {
+          "address": 6889536,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "f932f846f4c29d582e0f0eef3e1c41845fe0bcf5aa0a9a44836b6da41db09564",
+          "size": 524,
+          "type": 1
+        },
+        ".note.android.ident": {
+          "address": 372,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "a12ff204649756c402e6b675237ec835e69e498959f2d449a94bb09e5b88ccc0",
+          "size": 152,
+          "type": 7
+        },
+        ".note.gnu.build-id": {
+          "address": 524,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "c8c68588c9a1500e0a02fd9fe72a73cfd03fa0a6206c1edcef277111c1e35b25",
+          "size": 24,
+          "type": 7
+        },
+        ".plt": {
+          "address": 6711424,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "c7f844c2f7f28a80bea3a8591614ffec15a7f57fc25ef0aba3cdb713f46a55a0",
+          "size": 2080,
+          "type": 1
+        },
+        ".rel.dyn": {
+          "address": 72724,
+          "alignment": 4,
+          "entry_size": 1,
+          "flags": 2,
+          "sha256": "6f95a5fed778708e3d490c41cfee173b3702459e44233fc956aa13eff85b562e",
+          "size": 15059,
+          "type": 1610612737
+        },
+        ".rel.plt": {
+          "address": 196584,
+          "alignment": 4,
+          "entry_size": 8,
+          "flags": 66,
+          "sha256": "1ef3b301727e5b9ec9a66eb332ef362a01e8e5e192250820d0a335d9172c1044",
+          "size": 1024,
+          "type": 9
+        },
+        ".relro_padding": {
+          "address": 6890060,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 3508,
+          "type": 8
+        },
+        ".rodata": {
+          "address": 725312,
+          "alignment": 64,
+          "entry_size": 0,
+          "flags": 2097202,
+          "sha256": "95d8bdb8176536d2481009d3f6d9b45da4f1b459f2a491a87f4c7191cc8e0685",
+          "size": 521574,
+          "type": 1
+        },
+        ".text": {
+          "address": 1251072,
+          "alignment": 128,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "4fb7770b5df2d93dca26f9f98638e041b4bc0b7a2a858f62031d1ad74ca45a4b",
+          "size": 5460344,
+          "type": 1
+        }
+      },
+      "allocated_sections_unchanged": true,
+      "program_headers_sha256": "1ec0602ca3e4ad4105035e1c9aa8358c780acf560a803a08c060dfc776628b68",
+      "program_headers_unchanged": true,
+      "repeat_identical": true,
+      "source_bytes": 111037968,
+      "source_sha256": "28bfcfd3fa86eb46cf85b3dbe17fc5d1a05b6575d6873e8bd8b61cfe67ab357f",
+      "stripped_bytes": 6893896,
+      "stripped_sha256": "c891c327b6286b184d974bdca5126495d2ce73cd1cf35cd57e6e9dc28cc67080"
+    },
+    "x86": {
+      "allocated_sections": {
+        ".bss": {
+          "address": 10923632,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 5088,
+          "type": 8
+        },
+        ".data": {
+          "address": 10913464,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "e16bd9e8e8897423376ea97aed3a9b772fefebbda80a868f798f8272872f911c",
+          "size": 10160,
+          "type": 1
+        },
+        ".data.rel.ro": {
+          "address": 10737376,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "b942b56434c518e13cca35e4c95f9d469621081d2c9597cbc59ec2b2f0817291",
+          "size": 171196,
+          "type": 1
+        },
+        ".dynamic": {
+          "address": 10908580,
+          "alignment": 4,
+          "entry_size": 8,
+          "flags": 3,
+          "sha256": "8bf81a16883de0f4201e109c2efc2c8970ca3f5b2889884b5bdd375802aff862",
+          "size": 192,
+          "type": 6
+        },
+        ".dynstr": {
+          "address": 19132,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "7dd9b2d1fc2a5e0ba79b771fafc5643ffbff0f86e7665ffdca3d99b962eae403",
+          "size": 53568,
+          "type": 3
+        },
+        ".dynsym": {
+          "address": 548,
+          "alignment": 4,
+          "entry_size": 16,
+          "flags": 2,
+          "sha256": "be0d2da6f384ec1db6bb6aacc1a190bb4389ff2ee0d243c1439d509b5777a057",
+          "size": 12592,
+          "type": 11
+        },
+        ".eh_frame": {
+          "address": 1269296,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "cbc4c2c2f66124b2e6df3a19d5859be4dd3aa3e7e5d043caeaaf613447d23653",
+          "size": 1296800,
+          "type": 1
+        },
+        ".eh_frame_hdr": {
+          "address": 1152036,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "e777af1306078ea2ebc7af951cb679506ddd700835e1646b7ca97677130f7784",
+          "size": 117260,
+          "type": 1
+        },
+        ".fini_array": {
+          "address": 10908572,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "5e9a1bf548eacf0420fdab6bcc1b6d6c8b80a161a864961f22480b493360152c",
+          "size": 8,
+          "type": 15
+        },
+        ".gcc_except_table": {
+          "address": 88784,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "12593eede0d89a49b211ec2ca0f847c131b2506e40d6ab1a52ea0e26c3c799ce",
+          "size": 450708,
+          "type": 1
+        },
+        ".gnu.hash": {
+          "address": 14812,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "dd5df33be61b5c6c1cf7ce81124bcd4d7ce30847c7445beea92465e4cf2f9471",
+          "size": 4320,
+          "type": 1879048182
+        },
+        ".gnu.version": {
+          "address": 13140,
+          "alignment": 2,
+          "entry_size": 2,
+          "flags": 2,
+          "sha256": "ee64e976d723d73f6de4a0721140351b183129ac55a5f284cf273cef67727e4f",
+          "size": 1574,
+          "type": 1879048191
+        },
+        ".gnu.version_r": {
+          "address": 14716,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "9c4952b00c51212e66811cc5f895a1eff3c38ebdf64658260855e615a95597d1",
+          "size": 96,
+          "type": 1879048190
+        },
+        ".got": {
+          "address": 10908772,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "69100f6b43dbe18f238b87dcc0115987e86f8140cfc34d9e22c3e0de91bae279",
+          "size": 68,
+          "type": 1
+        },
+        ".got.plt": {
+          "address": 10908840,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "222141321c98bb8fb13c8448902454b236a2ce42a631caf170e5c3dd32492bd1",
+          "size": 528,
+          "type": 1
+        },
+        ".note.android.ident": {
+          "address": 372,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "a12ff204649756c402e6b675237ec835e69e498959f2d449a94bb09e5b88ccc0",
+          "size": 152,
+          "type": 7
+        },
+        ".note.gnu.build-id": {
+          "address": 524,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "b68f094c624fbba85e9250fc37650173488fdf8f3df448a68ac24108c7629d4e",
+          "size": 24,
+          "type": 7
+        },
+        ".plt": {
+          "address": 10731200,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "e6269cde32fb04453a30ff42740fc7ed7c0bec02d164d6939dbb37888cf18e1a",
+          "size": 2080,
+          "type": 1
+        },
+        ".rel.dyn": {
+          "address": 72700,
+          "alignment": 4,
+          "entry_size": 1,
+          "flags": 2,
+          "sha256": "da08a4a3cd7ba9e23807d63828708ae9739da16e3b733ed3588fc4858c6e83c5",
+          "size": 15051,
+          "type": 1610612737
+        },
+        ".rel.plt": {
+          "address": 87752,
+          "alignment": 4,
+          "entry_size": 8,
+          "flags": 66,
+          "sha256": "1557d237285696e65d954da00be7c60a8e3f46359223b50854dc8c29748de2e4",
+          "size": 1032,
+          "type": 9
+        },
+        ".relro_padding": {
+          "address": 10909368,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 2376,
+          "type": 8
+        },
+        ".rodata": {
+          "address": 539520,
+          "alignment": 64,
+          "entry_size": 0,
+          "flags": 2097202,
+          "sha256": "0ed0cb0c245f160a260023fc212ea412992d89e1e0a2c4f54a324a6b2bbbbf17",
+          "size": 612514,
+          "type": 1
+        },
+        ".text": {
+          "address": 2570240,
+          "alignment": 64,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "5bb703472bcee71b9edf5def216da11ae722b5a68df95035290a99cb5ea8775d",
+          "size": 8160946,
+          "type": 1
+        }
+      },
+      "allocated_sections_unchanged": true,
+      "program_headers_sha256": "db1b09a6ba44b3604925a17c073c78ed94f68117d8a325148d1008c9849bc1a4",
+      "program_headers_unchanged": true,
+      "repeat_identical": true,
+      "source_bytes": 113279556,
+      "source_sha256": "2c6ab0bf009ed2b9af42cd7247c592226274dcfef20232d78228b43d4df5c92d",
+      "stripped_bytes": 10913072,
+      "stripped_sha256": "a09dddaa1946edb555779cd42690be902e520de49ffd4da3c65f1708b2e76281"
+    },
+    "x86_64": {
+      "allocated_sections": {
+        ".bss": {
+          "address": 10797984,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 7392,
+          "type": 8
+        },
+        ".data": {
+          "address": 10784944,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "e18b762547a87b48e220bf5859f8d13d1d76d51a237908f32af2e78d4e988857",
+          "size": 13032,
+          "type": 1
+        },
+        ".data.rel.ro": {
+          "address": 10484656,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "e5cc2e3471953d500cef573ea1e6abd2381a3c249c8625090d63a392dce5bdf7",
+          "size": 280832,
+          "type": 1
+        },
+        ".dynamic": {
+          "address": 10765504,
+          "alignment": 8,
+          "entry_size": 16,
+          "flags": 3,
+          "sha256": "acf3edd978ff8b6ac02fe1e9066630de9bd4dd9b0487dde5a62061c05dec078e",
+          "size": 384,
+          "type": 6
+        },
+        ".dynstr": {
+          "address": 25680,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "b432988a3871100df5d7a74f8b0121b64d215d2ed343211e967e69f375fec1f0",
+          "size": 53568,
+          "type": 3
+        },
+        ".dynsym": {
+          "address": 800,
+          "alignment": 8,
+          "entry_size": 24,
+          "flags": 2,
+          "sha256": "3fecf7bd56a45b60871ae2343d4c8cf24d3cea7e722c267d858ba1c42eb393f2",
+          "size": 18888,
+          "type": 11
+        },
+        ".eh_frame": {
+          "address": 1361800,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "5cb951d17c5aa3d85d1e32633d5ec48a99347abe9e97b8b75721d8aff3b1feaa",
+          "size": 768276,
+          "type": 1
+        },
+        ".eh_frame_hdr": {
+          "address": 1243180,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "2ba185e1d28737c9262a370100f2b400f9d7182da43e5e08934ba482ad5a7448",
+          "size": 118620,
+          "type": 1
+        },
+        ".fini_array": {
+          "address": 10765488,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+          "size": 16,
+          "type": 15
+        },
+        ".gcc_except_table": {
+          "address": 134640,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "b29d2bbac2e2c5fb61bd5760dab4abc5e0db38fd887f60f9c931f7d8ccb14b09",
+          "size": 454760,
+          "type": 1
+        },
+        ".gnu.hash": {
+          "address": 21360,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "a06f4f4909349bad1337feaea116cc471e0fdc37ded0b57bacf896d1c92cf3f9",
+          "size": 4320,
+          "type": 1879048182
+        },
+        ".gnu.version": {
+          "address": 19688,
+          "alignment": 2,
+          "entry_size": 2,
+          "flags": 2,
+          "sha256": "fe46e75292af8570d86a693a13fd7f7cb7c2bd738120e0dc3858bea99bb64aa7",
+          "size": 1574,
+          "type": 1879048191
+        },
+        ".gnu.version_r": {
+          "address": 21264,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "9c4952b00c51212e66811cc5f895a1eff3c38ebdf64658260855e615a95597d1",
+          "size": 96,
+          "type": 1879048190
+        },
+        ".got": {
+          "address": 10765888,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "d5fe696dc1aa5c0a800bf800ce8fc6e26ab622c7dd7de4b9fd0c304fe4036256",
+          "size": 2056,
+          "type": 1
+        },
+        ".got.plt": {
+          "address": 10767944,
+          "alignment": 8,
+          "entry_size": 0,
+          "flags": 3,
+          "sha256": "fde60a6e2c8b4aa27ebe57784997df004c852e2f859b27522cbdbf75cd647dd4",
+          "size": 616,
+          "type": 1
+        },
+        ".note.android.ident": {
+          "address": 624,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "a12ff204649756c402e6b675237ec835e69e498959f2d449a94bb09e5b88ccc0",
+          "size": 152,
+          "type": 7
+        },
+        ".note.gnu.build-id": {
+          "address": 776,
+          "alignment": 4,
+          "entry_size": 0,
+          "flags": 2,
+          "sha256": "401c5eda30242d38b6bca28c8e81a135abd2dc88791c2226a1aed5efee84a0d4",
+          "size": 24,
+          "type": 7
+        },
+        ".plt": {
+          "address": 10467072,
+          "alignment": 16,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "c4820e978b1546f33756c34a431dee7b4a3630d0dea9a5405dc504abfec2b562",
+          "size": 1200,
+          "type": 1
+        },
+        ".rela.dyn": {
+          "address": 79248,
+          "alignment": 8,
+          "entry_size": 1,
+          "flags": 2,
+          "sha256": "093dfa7927772f5ba2c9c86028e823d4f022d52f13e3f03c089af4c7bc2338f9",
+          "size": 53616,
+          "type": 1610612738
+        },
+        ".rela.plt": {
+          "address": 132864,
+          "alignment": 8,
+          "entry_size": 24,
+          "flags": 66,
+          "sha256": "c59faed513dd58313ba0356c4908a2e00e7c6af4c2b43412434b44d7e9180f61",
+          "size": 1776,
+          "type": 4
+        },
+        ".relro_padding": {
+          "address": 10768560,
+          "alignment": 1,
+          "entry_size": 0,
+          "flags": 3,
+          "size": 3920,
+          "type": 8
+        },
+        ".rodata": {
+          "address": 589440,
+          "alignment": 64,
+          "entry_size": 0,
+          "flags": 2097202,
+          "sha256": "13777048bfa720102a784e5b7037817ca4172509466e1bf2aa31f38c15aaa463",
+          "size": 653737,
+          "type": 1
+        },
+        ".text": {
+          "address": 2146496,
+          "alignment": 64,
+          "entry_size": 0,
+          "flags": 6,
+          "sha256": "b9ec708f80d987a13c2999e7a2b52d99650f616b4a762817e8f9a29a748307b6",
+          "size": 8320563,
+          "type": 1
+        }
+      },
+      "allocated_sections_unchanged": true,
+      "program_headers_sha256": "e263db22a88a39ec7a55534373b65cc5c46bfbbb711277022391f6e53d4c441f",
+      "program_headers_unchanged": true,
+      "repeat_identical": true,
+      "source_bytes": 121608664,
+      "source_sha256": "4518b37e9224ef09daa6a625449eccf75f42f1ba36ffb2bec4744dd3b2ecd70d",
+      "stripped_bytes": 10751184,
+      "stripped_sha256": "05b921e29c5398285dc46c942ac552cc2ee580c614a3090590366b56e1151ee6"
+    }
+  },
+  "invocation": [
+    "llvm-strip",
+    "--strip-unneeded",
+    "-o",
+    "<output>",
+    "<pinned-source>"
+  ],
+  "libsignal_version": "0.105.0",
+  "ndk_source_properties_sha256": "fb5eec1ca5dac09442109cf79e9ce49faecd8b312dbc997e88903a394e14994a",
+  "ndk_version": "27.3.13750724",
+  "runner_image": "20261004.327.1",
+  "schema": 1,
+  "source_aar_sha256": "a3977f6563d82334f6a67ca9eaf42a7e2192bb5d06b539fe089dfc9a9502c6f8",
+  "source_commit": "0be94580bab4b9f48cd16053799fe5799517389a",
+  "source_total_bytes": 467856412,
+  "status": "candidate_evidence_requires_review_before_packaging",
+  "strip_tool_relative_path": "toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip",
+  "strip_tool_resolved_relative_path": "toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objcopy",
+  "strip_tool_sha256": "b811889ca41db2f6242a6498833e3e1705faf099bb382313f8feb2b070c79e9d",
+  "strip_tool_version": "llvm-strip, compatible with GNU strip\nLLVM (http://llvm.org/):\n  LLVM version 18.0.4\n  Optimized build.",
+  "stripped_total_bytes": 37839608
+}

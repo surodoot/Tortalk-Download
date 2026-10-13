@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:allowBackup="false" android:icon="@drawable/ic_tortalk" android:label="@string/app_name"
+        android:fullBackupContent="false" android:dataExtractionRules="@xml/backup_exclusions"
+        android:supportsRtl="true" android:usesCleartextTraffic="false"
+        android:theme="@style/TorTalkTheme">
+        <!-- API33+ opts into the existing classic Back handler; older Android ignores this attribute. -->
+        <activity tools:ignore="UnusedAttribute" android:name=".TorTalkActivity" android:exported="true" android:windowSoftInputMode="adjustResize" android:enableOnBackInvokedCallback="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TorTestActivity" android:exported="false" />
+        <service android:name="org.torproject.jni.TorService" tools:node="remove" />
+        <service android:name=".TorProcessService" android:exported="false" android:process=":tor" android:stopWithTask="true" />
+    </application>
+</manifest>

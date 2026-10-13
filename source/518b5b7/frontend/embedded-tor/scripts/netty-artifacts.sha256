@@ -1,0 +1,10 @@
+48d805b74e56dc5f92b1f288858185abc86db16d293e8da183542df6243427f2  io/netty/netty-buffer/4.1.139.Final/netty-buffer-4.1.139.Final.jar
+ad43f07219dfb757a87b9c2b4765002be478c5401971379954e3d182f285fe6b  io/netty/netty-codec/4.1.139.Final/netty-codec-4.1.139.Final.jar
+627cfdac2cd5dbd8a33af85977fb81fa6b46f0c00389ab4c8677a415f0f85480  io/netty/netty-codec-http/4.1.139.Final/netty-codec-http-4.1.139.Final.jar
+94d6800d5f717b40db5d0bf42a77b448d472cd9033735e69e7b18311bd902f23  io/netty/netty-codec-socks/4.1.139.Final/netty-codec-socks-4.1.139.Final.jar
+50372d86e27b4b1cf0810d75eb534795966a199049a1e85a0c41bbd2bb97f519  io/netty/netty-common/4.1.139.Final/netty-common-4.1.139.Final.jar
+ff85f00781b956d618b20f33da076c839a5e43e0084108b07bab0c19737168ec  io/netty/netty-handler/4.1.139.Final/netty-handler-4.1.139.Final.jar
+9c92c2407b6fd3c120ab5efb900475a1fe40ce099703d2500c8679d3c75a90cb  io/netty/netty-handler-proxy/4.1.139.Final/netty-handler-proxy-4.1.139.Final.jar
+562a5388c88325b7d6ed05e8168736871ce0e64ab01e0ce52ea7710760b9b457  io/netty/netty-resolver/4.1.139.Final/netty-resolver-4.1.139.Final.jar
+be7bff8b6274e7fae12bbad3c565777539e9b069517e0b3acc06d9ac2cd6ec05  io/netty/netty-transport/4.1.139.Final/netty-transport-4.1.139.Final.jar
+8e660ac8a485fc8d8b47d87d04ea33d19902dc6fc5a113e9353b762188b3f333  io/netty/netty-transport-native-unix-common/4.1.139.Final/netty-transport-native-unix-common-4.1.139.Final.jar

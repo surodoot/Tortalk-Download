@@ -1,0 +1,10 @@
+/* Native container only. Canonical styles.css is copied unchanged from the approved web. */
+html,body{height:100%;width:100%;margin:0;overflow:hidden}body{min-width:0;background:var(--paper)}#main{height:100%;width:100%}.screen{height:100%;min-height:0}.welcome-bottom .text-button{display:inline-flex}.native-empty{padding:24px 0;color:var(--muted);font-size:13px;line-height:1.9}.native-error{color:#80623b}.native-message-input{border:0;background:transparent;outline:none;resize:none;flex:1;min-width:0;max-height:110px;padding:12px;font:inherit;color:var(--ink)}button:disabled{opacity:.5;cursor:wait}
+
+/* Real opaque IDs can be longer than the original synthetic display names. */
+.chat-peer-id{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.chat-person p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.native-message-input:focus-visible{outline:2px solid #608367;outline-offset:2px;border-radius:12px}
+
+/* Keep the approved two-line note's flow height; its native login action retains a 44px target. */
+.welcome-bottom .muted-note{position:relative;min-height:3.6em}
+.welcome-bottom .text-button{position:absolute;inset:0;min-height:44px;padding:0;align-items:center;justify-content:center}
